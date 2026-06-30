@@ -518,6 +518,18 @@ html,body{
   .toc-grid{grid-template-columns:repeat(5,1fr)!important;top:17vh!important;}
   .card{width:86vw!important;}
   .under-card{width:86vw!important;}
-  .page-left{left:3vw!important;}
-  .page-right{right:3vw!important;}
+
+  /* mobile: keep arrows attached to the card edges, not the screen edges */
+  .page-left{
+    left:calc(50% - 43vw - 18px)!important;
+  }
+  .page-right{
+    right:calc(50% - 43vw - 18px)!important;
+  }
+
+  /* mobile: keep the bottom/back arrow inside the usable screen area */
+  .home-button{
+    left:7vw!important;
+    bottom:13vh!important;
+  }
 }
