@@ -1,0 +1,331 @@
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#f5f5f5;color:#111;font-family:Arial,Helvetica,sans-serif}
+button{font-family:Arial,Helvetica,sans-serif;background:transparent;cursor:pointer}
+.screen{min-height:100dvh;position:relative}
+.hidden{display:none!important}
+
+/* 버튼: 마지막 가이드 기준 */
+.circle-btn{
+  width:25px;height:25px;border:1px solid #b5b5b5;border-radius:50%;
+  color:#b5b5b5;background:#fff;font-size:13px;line-height:1;
+  display:flex;align-items:center;justify-content:center;position:absolute;
+  padding:0;font-weight:300
+}
+.circle-btn:hover{border-color:#111;color:#111}
+.pill{
+  height:29px;border:1px solid #d2d2d2;border-radius:999px;color:#aaa;background:#fff;
+  font-size:11px;letter-spacing:-.02em;padding:0 22px;min-width:88px;font-weight:300
+}
+.pill:hover,.pill.active{background:#1d120e;border-color:#1d120e;color:#fff}
+
+/* 목차 */
+.toc-screen{background:#fff;padding:3.8vh 2.5vw}
+.toc-frame{position:relative;width:100%;height:92vh}
+.review-main{
+  position:absolute;right:4.2vw;top:10.6vh;
+  height:49px;min-width:137px;border:0;border-radius:999px;
+  background:#9c9c9c;color:#fff;font-size:16px;font-weight:300;letter-spacing:.01em
+}
+.review-main:hover{background:#1d120e;color:#fff}
+.toc-grid{
+  position:absolute;left:4.4vw;right:4.4vw;top:19.6vh;
+  display:grid;grid-template-columns:repeat(9,1fr);gap:26px 12px
+}
+.day-tile{
+  height:74px;border:1px solid #b7b7b7;color:#9f9f9f;background:#fff;
+  font-size:20px;font-weight:300;letter-spacing:.02em
+}
+.day-tile:hover{color:#111;border-color:#111}
+.day-tile:disabled{cursor:default}
+
+/* 카드 화면 */
+.card-screen{background:#f4f4f4}
+.card{
+  position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);
+  width:610px;height:410px;background:#fff;border:0;overflow:hidden
+}
+.face{position:absolute;inset:0;padding:0;width:100%;height:100%;font-family:Georgia,"Times New Roman",serif}
+.sound-btn,.example-btn{right:18px;top:18px}
+.back-inside{left:18px;top:18px;font-size:24px}
+
+.front-word{
+  position:absolute;left:0;right:0;top:50%;transform:translateY(-52%);
+  text-align:center;font-size:50px;letter-spacing:.025em;line-height:1
+}
+
+/* 정의 카드: 고정 그리드 */
+.def-pos{
+  position:absolute;left:0;right:0;top:120px;text-align:center;
+  font-family:Arial,Helvetica,sans-serif;color:#555;font-size:14px;font-weight:300
+}
+.def-ko{
+  position:absolute;left:70px;right:70px;top:146px;text-align:center;
+  font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:1.25;font-weight:400
+}
+.def-en{
+  position:absolute;left:82px;right:82px;top:206px;height:82px;
+  font-size:19px;line-height:1.12;overflow:hidden
+}
+.rel-row{
+  position:absolute;left:82px;right:82px;top:318px;
+  display:grid;grid-template-columns:1fr 1fr;gap:28px;
+  font-family:Arial,Helvetica,sans-serif;font-size:17px
+}
+.synonyms{color:#0a54c9;text-align:left}
+.antonyms{color:#df0000;text-align:right}
+
+/* 예문 */
+.example-list{
+  position:absolute;left:82px;right:82px;top:82px;
+  font-size:19px;line-height:1.16
+}
+.example-item{position:relative;margin:0 0 34px 0;padding-left:28px}
+.example-sound{
+  position:absolute;left:0;top:1px;width:17px;height:17px;border:1px solid #aaa;
+  border-radius:50%;color:#999;background:#fff;font-size:8px;line-height:1;
+  display:flex;align-items:center;justify-content:center;padding:0
+}
+.example-sound:hover{border-color:#111;color:#111}
+.highlight{
+  color:#111;
+  background:linear-gradient(to top, rgba(255,230,0,.72) 50%, transparent 50%);
+  text-decoration:none
+}
+.forms{position:absolute;left:82px;right:82px;bottom:72px;font-size:18px;color:#333}
+
+/* 화살표: 시안처럼 얇고 간결하게 */
+.home-button{
+  position:absolute;left:6.9vw;bottom:6.6vh;
+  width:30px;height:38px;border:0;background:transparent;padding:0;z-index:10;
+  font-size:0;color:transparent;
+}
+.home-button::before{
+  content:"";position:absolute;left:8px;top:7px;width:20px;height:20px;
+  border-left:1px solid #bfbfbf;border-bottom:1px solid #bfbfbf;
+  transform:rotate(45deg);
+}
+.home-button:hover::before{border-color:#111}
+
+.page-arrow{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:30px;height:44px;border:0;background:transparent;padding:0;z-index:8;
+  font-size:0;color:transparent;
+}
+.page-arrow::before{
+  content:"";position:absolute;top:11px;width:20px;height:20px;
+  border-top:1px solid #b9b9b9;border-right:1px solid #b9b9b9;
+}
+.page-left{left:28.1vw}
+.page-right{right:28.1vw}
+.page-left::before{left:7px;transform:rotate(-135deg)}
+.page-right::before{right:7px;transform:rotate(45deg)}
+.page-arrow:hover::before{border-color:#111}
+
+/* 하단 */
+.under-card{
+  position:absolute;left:50%;top:calc(48% + 222px);transform:translateX(-50%);
+  width:610px;display:grid;grid-template-columns:1fr auto 1fr;align-items:start;height:42px
+}
+.day-label,.counter{font-size:10px;color:#111;line-height:29px}
+.counter{text-align:right}
+.card-actions{display:flex;gap:9px;justify-content:center}
+.small-pill{height:29px;min-width:86px;padding:0 17px;font-size:11px}
+
+/* 리뷰 */
+.review-screen{background:#fff}
+.review-panel{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:460px}
+.review-tile{
+  width:100%;height:58px;border:1px solid #b6b6b6;background:#fff;color:#777;
+  margin-bottom:14px;font-size:15px;font-weight:300
+}
+.review-tile:hover{border-color:#111;color:#111}
+.review-tile.disabled{color:#aaa}
+.review-tile span{font-size:12px;margin-left:8px;color:#aaa}
+
+@media(max-width:900px){
+  .toc-grid{grid-template-columns:repeat(5,1fr);top:17vh}
+  .day-tile{height:58px;font-size:16px}
+  .review-main{top:6vh;right:4vw;min-width:110px;height:42px;font-size:14px}
+  .card{width:72vw;height:54vh}
+  .front-word{font-size:46px}
+  .def-ko{
+  position:absolute;left:70px;right:70px;top:146px;text-align:center;
+  font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:1.25;font-weight:400
+}
+  .def-en,.rel-row,.example-list,.forms{left:48px;right:48px}
+  .page-left{left:5vw}.page-right{right:5vw}
+  .under-card{width:72vw}
+}
+
+
+/* v4 override: guide-style hairline chevrons */
+.home-button{
+  position:absolute;left:6.9vw;bottom:6.6vh;
+  width:30px;height:38px;border:0;background:transparent;padding:0;z-index:10;
+  font-size:0!important;color:transparent!important;
+}
+.home-button::before{
+  content:"";position:absolute;left:8px;top:7px;width:20px;height:20px;
+  border-left:1px solid #bfbfbf;border-bottom:1px solid #bfbfbf;
+  transform:rotate(45deg);
+}
+.home-button:hover::before{border-color:#111}
+.page-arrow{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:30px;height:44px;border:0;background:transparent;padding:0;z-index:8;
+  font-size:0!important;color:transparent!important;
+}
+.page-arrow::before{
+  content:"";position:absolute;top:11px;width:20px;height:20px;
+  border-top:1px solid #b9b9b9;border-right:1px solid #b9b9b9;
+}
+.page-left{left:28.1vw}
+.page-right{right:28.1vw}
+.page-left::before{left:7px;transform:rotate(-135deg)}
+.page-right::before{right:7px;transform:rotate(45deg)}
+.page-arrow:hover::before{border-color:#111}
+
+
+/* v5 UI refinements */
+
+/* 플레이 버튼: 채워진 그레이 삼각형 */
+.sound-btn,
+.example-sound{
+  font-size:0!important;
+}
+.sound-btn::before{
+  content:"";
+  width:0;height:0;
+  border-top:6px solid transparent;
+  border-bottom:6px solid transparent;
+  border-left:9px solid #9c9c9c;
+  margin-left:2px;
+}
+.sound-btn:hover::before{border-left-color:#111}
+
+.example-sound::before{
+  content:"";
+  width:0;height:0;
+  border-top:4px solid transparent;
+  border-bottom:4px solid transparent;
+  border-left:6px solid #9c9c9c;
+  margin-left:1px;
+}
+.example-sound:hover::before{border-left-color:#111}
+
+/* 예문 페이지도 정의 페이지처럼 고정 기준선 */
+.example-list{
+  left:82px!important;
+  right:82px!important;
+  top:132px!important;
+  height:170px;
+  overflow:hidden;
+  font-size:19px;
+  line-height:1.18;
+}
+.example-item{
+  margin:0 0 32px 0!important;
+  padding-left:28px!important;
+}
+.forms{
+  left:82px!important;
+  right:82px!important;
+  bottom:62px!important;
+  font-size:18px;
+}
+
+/* 예문 뒤로가기 버튼: 원형 버튼 안 문자 대신 얇은 선 chevron */
+.back-inside{
+  font-size:0!important;
+  color:transparent!important;
+}
+.back-inside::before{
+  content:"";
+  position:absolute;
+  left:9px;
+  top:7px;
+  width:10px;
+  height:10px;
+  border-left:1px solid #b5b5b5;
+  border-bottom:1px solid #b5b5b5;
+  transform:rotate(45deg);
+}
+.back-inside:hover::before{border-color:#111}
+
+/* 카드-화살표 간격: 현재보다 두 배 넓게 */
+.page-left{left:23.8vw!important}
+.page-right{right:23.8vw!important}
+
+
+/* v6 final touch */
+
+/* 예문 뒤로가기: 동그라미 제거, 얇은 화살표만 */
+.back-inside{
+  border:0!important;
+  background:transparent!important;
+  width:28px!important;
+  height:28px!important;
+}
+.back-inside::before{
+  left:8px!important;
+  top:7px!important;
+  width:12px!important;
+  height:12px!important;
+}
+
+/* 품사: 한글 뜻 위가 아니라 한글 뜻 왼쪽에 붙임 */
+.def-pos{
+  top:132px!important;
+  left:70px!important;
+  right:auto!important;
+  width:54px!important;
+  text-align:right!important;
+  color:#555!important;
+}
+.def-ko{
+  top:126px!important;
+  left:136px!important;
+  right:70px!important;
+  text-align:left!important;
+}
+.def-en{
+  top:206px!important;
+}
+.rel-row{
+  top:318px!important;
+}
+
+/* v7 review UX + definition alignment */
+.home-button.close-button::before,
+.home-button.close-button::after{
+  content:"";
+  position:absolute;
+  left:14px;
+  top:6px;
+  width:1px;
+  height:24px;
+  background:#bfbfbf;
+  border:0!important;
+  transform:rotate(45deg);
+}
+.home-button.close-button::after{transform:rotate(-45deg)}
+.home-button.close-button:hover::before,
+.home-button.close-button:hover::after{background:#111}
+
+.pill.review-remove{
+  background:#9c9c9c!important;
+  border-color:#9c9c9c!important;
+  color:#fff!important;
+}
+.pill.review-remove:hover{
+  background:#1d120e!important;
+  border-color:#1d120e!important;
+  color:#fff!important;
+}
+
+.def-ko{
+  top:126px!important;
+  left:70px!important;
+  right:70px!important;
+  text-align:center!important;
+}
