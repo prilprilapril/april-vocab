@@ -921,5 +921,752 @@ window.APRIL_WORDS = [
       "entanglement"
     ],
     "id": "DAY_08_tangle"
+  },
+  {
+    "day": "DAY 09",
+    "word": "require",
+    "part": "v.",
+    "ko": "필요로 하다, 요구하다",
+    "def": "to need something or to make it necessary",
+    "syn": [
+      "demand"
+    ],
+    "ant": [],
+    "examples": [
+      "Success requires a high degree of motivation working with a high degree of ability.",
+      "Most plants require sunlight and water to grow well."
+    ],
+    "forms": [
+      "requirement"
+    ],
+    "id": "DAY_09_require"
+  },
+  {
+    "day": "DAY 09",
+    "word": "remove",
+    "part": "v.",
+    "ko": "치우다, 제거하다, 없애다",
+    "def": "to take something away from a place",
+    "syn": [
+      "displace",
+      "take away"
+    ],
+    "ant": [],
+    "examples": [
+      "A simple way to get organized is to remove unnecessary things around you.",
+      "Please remove your shoes before entering the house."
+    ],
+    "forms": [
+      "removal",
+      "removable"
+    ],
+    "id": "DAY_09_remove"
+  },
+  {
+    "day": "DAY 09",
+    "word": "circumstance",
+    "part": "n.",
+    "ko": "환경, 상황, 사정",
+    "def": "a fact or condition connected with an event or situation",
+    "syn": [
+      "situation",
+      "condition",
+      "surroundings"
+    ],
+    "ant": [],
+    "examples": [
+      "Roman law evolved dramatically over time, continuously adapting to new circumstances.",
+      "Under no circumstances should you open the door to strangers."
+    ],
+    "forms": [
+      "circumstantial",
+      "personal circumstance"
+    ],
+    "id": "DAY_09_circumstance"
+  },
+  {
+    "day": "DAY 09",
+    "word": "exist",
+    "part": "v.",
+    "ko": "존재하다, 살아가다",
+    "def": "to be real or present; to live",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Habitat diversity refers to the variety of places where life exists.",
+      "Scientists believe that liquid water once existed on Mars."
+    ],
+    "forms": [
+      "existence",
+      "existing"
+    ],
+    "id": "DAY_09_exist"
+  },
+  {
+    "day": "DAY 09",
+    "word": "discovery",
+    "part": "n.",
+    "ko": "발견, 발견된 것",
+    "def": "the act of finding something that was not known before",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The Nobel Prize is awarded not for a lifetime of scientific achievement but for a single discovery.",
+      "The discovery of penicillin changed the history of medicine."
+    ],
+    "forms": [
+      "discover"
+    ],
+    "id": "DAY_09_discovery"
+  },
+  {
+    "day": "DAY 09",
+    "word": "personality",
+    "part": "n.",
+    "ko": "성격, 개성",
+    "def": "the type of person you are, shown by how you behave, feel, and think",
+    "syn": [
+      "character",
+      "nature"
+    ],
+    "ant": [],
+    "examples": [
+      "She has a pleasant personality and gets along with everyone.",
+      "Your personality can influence the kind of hobbies you enjoy."
+    ],
+    "forms": [
+      "personal",
+      "personally"
+    ],
+    "id": "DAY_09_personality"
+  },
+  {
+    "day": "DAY 09",
+    "word": "construct",
+    "part": "v.",
+    "ko": "구성하다, 건설하다",
+    "def": "to build or make something by putting parts together",
+    "syn": [
+      "build",
+      "form"
+    ],
+    "ant": [
+      "destroy",
+      "demolish"
+    ],
+    "examples": [
+      "Scientists who study dinosaurs observe every little detail in a dinosaur fossil to construct a skeleton.",
+      "The company plans to construct a new library in the center of the town."
+    ],
+    "forms": [
+      "construction",
+      "constructive"
+    ],
+    "id": "DAY_09_construct"
+  },
+  {
+    "day": "DAY 09",
+    "word": "secure",
+    "part": "v.",
+    "ko": "지키다, 안전하게 하다, 확보하다",
+    "def": "to protect something from danger or to make it safe",
+    "syn": [
+      "protect",
+      "guard"
+    ],
+    "ant": [],
+    "examples": [
+      "Schools have a duty to secure their students' safety.",
+      "You should use a strong password to secure your personal account."
+    ],
+    "forms": [
+      "security"
+    ],
+    "id": "DAY_09_secure"
+  },
+  {
+    "day": "DAY 09",
+    "word": "drain",
+    "part": "n. / v.",
+    "ko": "배수관, 하수구 / 흘려보내다, 배출하다",
+    "def": "a pipe or hole that carries liquid away; to make liquid flow away",
+    "syn": [
+      "sink"
+    ],
+    "ant": [],
+    "examples": [
+      "What goes down the drain disappears and can't be gotten back again.",
+      "You should drain the pasta completely before adding the tomato sauce."
+    ],
+    "forms": [
+      "drainage"
+    ],
+    "id": "DAY_09_drain"
+  },
+  {
+    "day": "DAY 09",
+    "word": "absolute",
+    "part": "adj.",
+    "ko": "절대적인, 완전한",
+    "def": "complete and total; not limited in any way",
+    "syn": [
+      "complete",
+      "perfect"
+    ],
+    "ant": [],
+    "examples": [
+      "Among security, justice, and conversation, no one is absolute.",
+      "The rules of the game must be followed with absolute honesty."
+    ],
+    "forms": [
+      "absolutely"
+    ],
+    "id": "DAY_09_absolute"
+  },
+  {
+    "day": "DAY 09",
+    "word": "barrier",
+    "part": "n.",
+    "ko": "장벽, 장애물",
+    "def": "something that stops people from moving or communicating",
+    "syn": [
+      "obstacle"
+    ],
+    "ant": [],
+    "examples": [
+      "Language barriers significantly reduce the opportunities for contact between different populations.",
+      "A lack of confidence can be a major barrier to learning a new skill."
+    ],
+    "forms": [],
+    "id": "DAY_09_barrier"
+  },
+  {
+    "day": "DAY 09",
+    "word": "layer",
+    "part": "n.",
+    "ko": "막, 겹, 층",
+    "def": "one of several levels or sheets of material",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Both cameras and eyes have a light-sensitive layer onto which the image is cast.",
+      "A thick layer of fresh snow covered the quiet streets."
+    ],
+    "forms": [],
+    "id": "DAY_09_layer"
+  },
+  {
+    "day": "DAY 09",
+    "word": "resolution",
+    "part": "n.",
+    "ko": "해결, 결의안, 결단력",
+    "def": "a solution to a problem; a firm decision",
+    "syn": [
+      "solution"
+    ],
+    "ant": [],
+    "examples": [
+      "I look forward to your reply and a resolution to my problem.",
+      "Making a New Year's resolution is easy, but keeping it requires self-discipline."
+    ],
+    "forms": [
+      "resolve"
+    ],
+    "id": "DAY_09_resolution"
+  },
+  {
+    "day": "DAY 09",
+    "word": "assure",
+    "part": "v.",
+    "ko": "보장하다, 확신시키다",
+    "def": "to tell someone confidently that something is true",
+    "syn": [
+      "guarantee",
+      "ensure",
+      "confirm"
+    ],
+    "ant": [],
+    "examples": [
+      "Regular healthy eating assures that you don't start your day in an already depleted state.",
+      "The mechanic called to assure me that the car would be ready by noon."
+    ],
+    "forms": [
+      "assurance"
+    ],
+    "id": "DAY_09_assure"
+  },
+  {
+    "day": "DAY 09",
+    "word": "essence",
+    "part": "n.",
+    "ko": "본질, 정수",
+    "def": "the most important quality or feature of something",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "In many ways, language is the essence of culture.",
+      "The essence of a good friendship is mutual trust."
+    ],
+    "forms": [
+      "essential"
+    ],
+    "id": "DAY_09_essence"
+  },
+  {
+    "day": "DAY 09",
+    "word": "suburb",
+    "part": "n.",
+    "ko": "교외, 근교",
+    "def": "an area where people live outside the center of a large city",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "A fire broke out and destroyed an entire block of homes in the suburbs.",
+      "Many families prefer living in the suburbs because it is quieter than downtown."
+    ],
+    "forms": [
+      "suburban"
+    ],
+    "id": "DAY_09_suburb"
+  },
+  {
+    "day": "DAY 09",
+    "word": "rehearse",
+    "part": "v.",
+    "ko": "예행연습을 하다, 반복하다",
+    "def": "to practice a play, piece of music, or speech before performing it",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The actors have a detailed script that allows them to rehearse exactly what they will do.",
+      "The school choir met after class to rehearse for the upcoming concert."
+    ],
+    "forms": [
+      "rehearsal"
+    ],
+    "id": "DAY_09_rehearse"
+  },
+  {
+    "day": "DAY 09",
+    "word": "lengthy",
+    "part": "adj.",
+    "ko": "아주 긴, 장황한, 지루한",
+    "def": "continuing for a long time, often too long",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "There were lengthy discussions about the intention and construction of each film section.",
+      "The travelers had to go through a lengthy security check at the airport."
+    ],
+    "forms": [
+      "length",
+      "lengthen"
+    ],
+    "id": "DAY_09_lengthy"
+  },
+  {
+    "day": "DAY 09",
+    "word": "exaggerate",
+    "part": "v.",
+    "ko": "과장하다, 부풀리다",
+    "def": "to make something seem larger, better, worse, or more important than it really is",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "People tend to exaggerate the amount of exercise they do.",
+      "He tends to exaggerate small problems and make them sound serious."
+    ],
+    "forms": [
+      "exaggeration",
+      "exaggerated"
+    ],
+    "id": "DAY_09_exaggerate"
+  },
+  {
+    "day": "DAY 09",
+    "word": "flock",
+    "part": "n.",
+    "ko": "떼, 무리",
+    "def": "a group of sheep, goats, or birds",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Llamas are animals living in flocks in the Andes Mountains of South America.",
+      "A large flock of birds flew over the lake as the sun went down."
+    ],
+    "forms": [],
+    "id": "DAY_09_flock"
+  },
+  {
+    "day": "DAY 09",
+    "word": "eager",
+    "part": "adj.",
+    "ko": "열망하는, 열심인",
+    "def": "wanting very much to do or have something",
+    "syn": [
+      "keen",
+      "enthusiastic"
+    ],
+    "ant": [
+      "uninterested"
+    ],
+    "examples": [
+      "Most children are eager to please their parents.",
+      "The students were eager to start their summer vacation projects."
+    ],
+    "forms": [
+      "eagerness",
+      "eagerly"
+    ],
+    "id": "DAY_09_eager"
+  },
+  {
+    "day": "DAY 09",
+    "word": "crawl",
+    "part": "v.",
+    "ko": "기다, 기어가다",
+    "def": "to move slowly on your hands and knees",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Babies learn to sit up, crawl, and then finally walk.",
+      "We had to crawl through the small opening to get into the cave."
+    ],
+    "forms": [],
+    "id": "DAY_09_crawl"
+  },
+  {
+    "day": "DAY 09",
+    "word": "fabulous",
+    "part": "adj.",
+    "ko": "아주 멋진, 굉장한, 우화에 나오는",
+    "def": "extremely good, beautiful, or impressive",
+    "syn": [
+      "wonderful",
+      "brilliant"
+    ],
+    "ant": [],
+    "examples": [
+      "Talking and laughing over coffee, they enjoyed a fabulous spring day.",
+      "The hotel we stayed at offered a fabulous view of the ocean."
+    ],
+    "forms": [],
+    "id": "DAY_09_fabulous"
+  },
+  {
+    "day": "DAY 09",
+    "word": "contradict",
+    "part": "v.",
+    "ko": "부정하다, 반박하다, 모순되다",
+    "def": "to say that the opposite of what someone said is true",
+    "syn": [],
+    "ant": [
+      "deny",
+      "disprove",
+      "confirm"
+    ],
+    "examples": [
+      "Confirmation bias refers to a type of selective thinking that ignores what contradicts one's belief.",
+      "The witness's new statement seems to contradict the evidence found by the police."
+    ],
+    "forms": [
+      "contradiction",
+      "contradictory"
+    ],
+    "id": "DAY_09_contradict"
+  },
+  {
+    "day": "DAY 09",
+    "word": "naive",
+    "part": "adj.",
+    "ko": "순진한, 천진난만한",
+    "def": "believing too easily that people are good or that life is simple",
+    "syn": [
+      "innocent"
+    ],
+    "ant": [
+      "sophisticated"
+    ],
+    "examples": [
+      "It's the story of a naive young man from Alabama.",
+      "It was a bit naive of him to think the project would be finished in a single day."
+    ],
+    "forms": [
+      "naively"
+    ],
+    "id": "DAY_09_naive"
+  },
+  {
+    "day": "DAY 09",
+    "word": "spill",
+    "part": "v. / n.",
+    "ko": "엎지르다, 흘리다, 누설하다 / 유출",
+    "def": "to accidentally pour liquid out of a container",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "It was careless of me to spill my coffee on the carpet.",
+      "Be careful not to spill any juice on your clean white shirt."
+    ],
+    "forms": [],
+    "id": "DAY_09_spill"
+  },
+  {
+    "day": "DAY 09",
+    "word": "applaud",
+    "part": "v.",
+    "ko": "갈채를 보내다, 박수를 치다",
+    "def": "to clap your hands to show approval or enjoyment",
+    "syn": [
+      "clap",
+      "cheer",
+      "praise"
+    ],
+    "ant": [],
+    "examples": [
+      "She applauded his passionate performance and clapped for a long time.",
+      "The audience began to applaud loudly as soon as the concert ended."
+    ],
+    "forms": [
+      "applause"
+    ],
+    "id": "DAY_09_applaud"
+  },
+  {
+    "day": "DAY 09",
+    "word": "heir",
+    "part": "n.",
+    "ko": "상속인, 계승자",
+    "def": "a person who has the legal right to receive property or a title",
+    "syn": [
+      "successor",
+      "inheritor"
+    ],
+    "ant": [],
+    "examples": [
+      "Octavius found that Caesar's will would make him Caesar's heir.",
+      "The young prince is the rightful heir to the royal throne."
+    ],
+    "forms": [],
+    "id": "DAY_09_heir"
+  },
+  {
+    "day": "DAY 09",
+    "word": "refute",
+    "part": "v.",
+    "ko": "반박하다, 부인하다",
+    "def": "to prove that a statement or idea is wrong",
+    "syn": [
+      "disprove"
+    ],
+    "ant": [
+      "confirm"
+    ],
+    "examples": [
+      "The mind overvalues evidence that confirms what we already think and undervalues evidence that refutes it.",
+      "The lawyer presented clear facts to refute the false accusations against his client."
+    ],
+    "forms": [
+      "refutation"
+    ],
+    "id": "DAY_09_refute"
+  },
+  {
+    "day": "DAY 09",
+    "word": "clash",
+    "part": "n. / v.",
+    "ko": "충돌, 언쟁 / 맞붙다, 격돌하다",
+    "def": "a fight, argument, or disagreement",
+    "syn": [
+      "crash",
+      "collision"
+    ],
+    "ant": [],
+    "examples": [
+      "Bird strikes do little damage to the aircraft, although these clashes are fatal to the birds involved.",
+      "The soccer match was delayed due to a violent clash between rival supporters."
+    ],
+    "forms": [],
+    "id": "DAY_09_clash"
+  },
+  {
+    "day": "DAY 09",
+    "word": "pregnant",
+    "part": "adj.",
+    "ko": "임신한, 충만한",
+    "def": "having a baby growing inside the body",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Those seats are for the elderly and pregnant women.",
+      "She stayed healthy while she was pregnant by walking every day."
+    ],
+    "forms": [
+      "pregnancy"
+    ],
+    "id": "DAY_09_pregnant"
+  },
+  {
+    "day": "DAY 09",
+    "word": "intersect",
+    "part": "v.",
+    "ko": "교차하다, 가로지르다",
+    "def": "to meet or cross each other",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "A ride costs about two dollars and it includes free transfers at stations where subway lines intersect.",
+      "The two country roads intersect right in front of the old school house."
+    ],
+    "forms": [
+      "intersection"
+    ],
+    "id": "DAY_09_intersect"
+  },
+  {
+    "day": "DAY 09",
+    "word": "reckless",
+    "part": "adj.",
+    "ko": "무모한, 난폭한, 신중하지 못한",
+    "def": "not thinking about danger or the results of your actions",
+    "syn": [
+      "careless"
+    ],
+    "ant": [
+      "prudent"
+    ],
+    "examples": [
+      "If someone is too brave, they become reckless.",
+      "He was arrested by the police for reckless driving on the busy highway."
+    ],
+    "forms": [],
+    "id": "DAY_09_reckless"
+  },
+  {
+    "day": "DAY 09",
+    "word": "superb",
+    "part": "adj.",
+    "ko": "최고의, 최상의, 뛰어난",
+    "def": "excellent; of very high quality",
+    "syn": [
+      "excellent",
+      "superior"
+    ],
+    "ant": [],
+    "examples": [
+      "Thank you so much for the excellent service and the superb delivery.",
+      "The chef served a superb meal that delighted all the guests at the party."
+    ],
+    "forms": [],
+    "id": "DAY_09_superb"
+  },
+  {
+    "day": "DAY 09",
+    "word": "splendid",
+    "part": "adj.",
+    "ko": "훌륭한, 화려한, 아주 인상적인",
+    "def": "very beautiful, impressive, or excellent",
+    "syn": [
+      "excellent",
+      "superior"
+    ],
+    "ant": [],
+    "examples": [
+      "We admire the splendid views at Niagara Falls.",
+      "The opera singers wore splendid costumes during the grand opening scene."
+    ],
+    "forms": [],
+    "id": "DAY_09_splendid"
+  },
+  {
+    "day": "DAY 09",
+    "word": "eloquent",
+    "part": "adj.",
+    "ko": "설득력 있는, 유창한, 웅변을 잘하는",
+    "def": "able to express ideas clearly and persuasively",
+    "syn": [
+      "persuasive"
+    ],
+    "ant": [],
+    "examples": [
+      "We need more science writing that is clear, wise, and eloquent.",
+      "The president delivered an eloquent speech that inspired the whole nation."
+    ],
+    "forms": [
+      "eloquently",
+      "eloquence"
+    ],
+    "id": "DAY_09_eloquent"
+  },
+  {
+    "day": "DAY 09",
+    "word": "burglar",
+    "part": "n.",
+    "ko": "절도범, 빈집 털이범",
+    "def": "a person who enters a building illegally to steal things",
+    "syn": [
+      "thief",
+      "robber"
+    ],
+    "ant": [],
+    "examples": [
+      "The burglar finally put up his hands in surrender and waited for the police to arrive.",
+      "The home security system immediately went off when the burglar broke the window."
+    ],
+    "forms": [
+      "burglary"
+    ],
+    "id": "DAY_09_burglar"
+  },
+  {
+    "day": "DAY 09",
+    "word": "irrigate",
+    "part": "v.",
+    "ko": "물을 대다, 관개하다",
+    "def": "to supply land or crops with water",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Paddies have to be irrigated, so a complex system of channels must be dug from the nearest water source.",
+      "Farmers use modern technology to irrigate their dry desert fields efficiently."
+    ],
+    "forms": [
+      "irrigation"
+    ],
+    "id": "DAY_09_irrigate"
+  },
+  {
+    "day": "DAY 09",
+    "word": "dye",
+    "part": "v. / n.",
+    "ko": "염색하다 / 염료, 염색",
+    "def": "to change the color of something using a special liquid",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "I'd like to get my hair dyed light brown.",
+      "They used natural substances from roots and berries to dye the cotton cloth."
+    ],
+    "forms": [],
+    "id": "DAY_09_dye"
+  },
+  {
+    "day": "DAY 09",
+    "word": "susceptible",
+    "part": "adj.",
+    "ko": "영향을 받기 쉬운, 민감한, 예민한",
+    "def": "easily influenced, harmed, or affected by something",
+    "syn": [
+      "sensitive",
+      "receptive",
+      "vulnerable"
+    ],
+    "ant": [],
+    "examples": [
+      "Professionals research how to make us more susceptible to their messages.",
+      "Plants that grow in the shade are often more susceptible to certain diseases."
+    ],
+    "forms": [],
+    "id": "DAY_09_susceptible"
   }
 ];
