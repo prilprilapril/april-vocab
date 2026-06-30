@@ -329,3 +329,195 @@ button{font-family:Arial,Helvetica,sans-serif;background:transparent;cursor:poin
   right:70px!important;
   text-align:center!important;
 }
+
+
+/* v8 iPad stable layout
+   Keep the same desktop/card proportions on iPad instead of letting the mobile media query
+   stretch the card and move the controls. */
+html,body{
+  min-width:1024px;
+  overflow-x:auto;
+  -webkit-text-size-adjust:100%;
+}
+.screen{min-width:1024px!important;}
+.card{
+  width:610px!important;
+  height:410px!important;
+  left:50%!important;
+  top:48%!important;
+}
+.under-card{
+  width:610px!important;
+  top:calc(48% + 222px)!important;
+}
+.page-left{left:calc(50% - 360px)!important;}
+.page-right{right:calc(50% - 360px)!important;}
+.toc-grid{
+  grid-template-columns:repeat(9,1fr)!important;
+  top:19.6vh!important;
+}
+.day-tile{
+  height:74px!important;
+  font-size:20px!important;
+}
+.review-main{
+  top:10.6vh!important;
+  right:4.2vw!important;
+  min-width:137px!important;
+  height:49px!important;
+  font-size:16px!important;
+}
+.front-word{font-size:50px!important;}
+.def-en,.rel-row,.example-list,.forms{
+  left:82px!important;
+  right:82px!important;
+}
+.def-ko{
+  left:70px!important;
+  right:70px!important;
+  text-align:center!important;
+}
+
+
+/* v9 proportional responsive layout: laptop look, scaled by viewport */
+html,body{
+  min-width:0!important;
+  overflow-x:hidden!important;
+  -webkit-text-size-adjust:100%;
+}
+.screen{min-width:0!important;}
+.card{
+  width:clamp(320px, min(72vw, 88vh), 610px)!important;
+  height:auto!important;
+  aspect-ratio:610 / 410;
+  left:50%!important;
+  top:48%!important;
+}
+.under-card{
+  width:clamp(320px, min(72vw, 88vh), 610px)!important;
+  top:calc(48% + clamp(132px, min(26.2vw, 32vh), 222px))!important;
+  height:clamp(30px, 4.1vw, 42px)!important;
+}
+.face{font-family:Georgia,"Times New Roman",serif;}
+.circle-btn{
+  width:clamp(19px, 2.45vw, 25px)!important;
+  height:clamp(19px, 2.45vw, 25px)!important;
+}
+.sound-btn,.example-btn{right:2.95%!important;top:4.4%!important;}
+.front-word{
+  font-size:clamp(34px, 5vw, 50px)!important;
+}
+
+/* Definition: Korean meaning centered; part of speech moved into English definition */
+.def-pos{display:none!important;}
+.def-ko{
+  top:30.7%!important;
+  left:11.5%!important;
+  right:11.5%!important;
+  text-align:center!important;
+  font-size:clamp(18px, 2.35vw, 24px)!important;
+  line-height:1.25!important;
+}
+.def-en{
+  top:50.2%!important;
+  left:13.4%!important;
+  right:13.4%!important;
+  height:20%!important;
+  font-size:clamp(14px, 1.85vw, 19px)!important;
+  line-height:1.16!important;
+  overflow:hidden!important;
+}
+.inline-pos{
+  font-family:Arial,Helvetica,sans-serif;
+  color:#555;
+  font-size:.78em;
+  margin-right:.35em;
+  white-space:nowrap;
+}
+.rel-row{
+  top:77.6%!important;
+  left:13.4%!important;
+  right:13.4%!important;
+  gap:4.6%!important;
+  font-size:clamp(13px, 1.65vw, 17px)!important;
+}
+
+/* Examples scaled from card, not screen */
+.example-list{
+  top:32.2%!important;
+  left:13.4%!important;
+  right:13.4%!important;
+  height:41.5%!important;
+  font-size:clamp(14px, 1.85vw, 19px)!important;
+  line-height:1.18!important;
+}
+.example-item{
+  margin:0 0 clamp(18px, 3.1vw, 32px) 0!important;
+  padding-left:clamp(20px, 2.7vw, 28px)!important;
+}
+.example-sound{
+  width:clamp(13px, 1.66vw, 17px)!important;
+  height:clamp(13px, 1.66vw, 17px)!important;
+}
+.forms{
+  left:13.4%!important;
+  right:13.4%!important;
+  bottom:15.1%!important;
+  font-size:clamp(14px, 1.75vw, 18px)!important;
+}
+.back-inside{
+  left:2.95%!important;
+  top:4.4%!important;
+}
+
+/* Arrows and bottom controls keep fixed proportion around the card */
+.page-left{left:calc(50% - clamp(214px, min(42vw, 52vh), 360px))!important;}
+.page-right{right:calc(50% - clamp(214px, min(42vw, 52vh), 360px))!important;}
+.home-button{
+  left:clamp(24px, 6.9vw, 72px)!important;
+  bottom:6.6vh!important;
+}
+.day-label,.counter{font-size:clamp(9px, .98vw, 10px)!important;line-height:29px!important;}
+.card-actions{gap:clamp(6px, .88vw, 9px)!important;}
+.small-pill{
+  height:clamp(25px, 2.84vw, 29px)!important;
+  min-width:clamp(74px, 8.4vw, 86px)!important;
+  padding:0 clamp(12px, 1.66vw, 17px)!important;
+  font-size:clamp(10px, 1.07vw, 11px)!important;
+}
+
+/* TOC proportional cleanup */
+.toc-screen{padding:3.8vh 2.5vw!important;}
+.toc-frame{height:92vh!important;}
+.toc-grid{
+  left:4.4vw!important;
+  right:4.4vw!important;
+  top:19.6vh!important;
+  grid-template-columns:repeat(9,1fr)!important;
+  gap:clamp(14px, 2.5vh, 26px) clamp(8px, 1.17vw, 12px)!important;
+}
+.day-tile{
+  height:clamp(50px, 7.2vw, 74px)!important;
+  font-size:clamp(14px, 1.95vw, 20px)!important;
+}
+.review-main{
+  top:10.6vh!important;
+  right:4.2vw!important;
+  min-width:clamp(100px, 13.4vw, 137px)!important;
+  height:clamp(38px, 4.78vw, 49px)!important;
+  font-size:clamp(13px, 1.56vw, 16px)!important;
+}
+.review-panel{
+  width:clamp(320px, 45vw, 460px)!important;
+}
+.review-tile{
+  height:clamp(48px, 5.67vw, 58px)!important;
+}
+
+@media(max-width:700px){
+  .toc-grid{grid-template-columns:repeat(5,1fr)!important;top:17vh!important;}
+  .card{width:86vw!important;}
+  .under-card{width:86vw!important;}
+  .page-left{left:3vw!important;}
+  .page-right{right:3vw!important;}
+}

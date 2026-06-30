@@ -82,9 +82,10 @@ function render() {
   if (!w) return;
 
   $("frontWord").textContent = w.word;
-  $("part").textContent = w.part ? `(${w.part})` : "";
+  $("part").textContent = "";
   $("meaningKo").textContent = w.ko;
-  $("definitionEn").textContent = w.def || "";
+  const pos = w.part ? `<span class="inline-pos">(${escapeHtml(w.part)})</span> ` : "";
+  $("definitionEn").innerHTML = pos + escapeHtml(w.def || "");
   $("synonyms").textContent = (w.syn || []).join(", ");
   $("antonyms").textContent = (w.ant || []).join(", ");
 
@@ -246,6 +247,18 @@ document.addEventListener("click", e => {
   e.stopPropagation();
   speak(current().examples[Number(b.dataset.i)], .82);
 });
+
+
+
+// v8: iPad Safari touch fallback. Some iOS browsers do not reliably fire the normal click
+// on layered absolute-positioned cards, so handle touch explicitly and prevent double flip.
+$("card").addEventListener("touchend", e => {
+  if (e.target.closest("button")) return;
+  if (view !== "examples") {
+    e.preventDefault();
+    flip();
+  }
+}, { passive: false });
 
 document.addEventListener("keydown", e => {
   if (e.key === "ArrowLeft") go(-1);
