@@ -1,5 +1,1506 @@
 window.APRIL_WORDS = [
   {
+    "day": "DAY 05",
+    "word": "effect",
+    "part": "n.",
+    "ko": "결과, 효과, 영향",
+    "def": "a change or result caused by something",
+    "syn": [
+      "result",
+      "outcome"
+    ],
+    "ant": [],
+    "examples": [
+      "We naturally think in terms of cause and effect.",
+      "The medicine had a strong effect on his health."
+    ],
+    "forms": [
+      "effective",
+      "effectively"
+    ],
+    "id": "DAY_05_effect"
+  },
+  {
+    "day": "DAY 05",
+    "word": "submit",
+    "part": "v.",
+    "ko": "제출하다, 복종하다, 굴복하다",
+    "def": "to give a document or piece of work to someone; to accept authority",
+    "syn": [
+      "hand in"
+    ],
+    "ant": [],
+    "examples": [
+      "Linda forgot to submit an important paper.",
+      "Please submit your report by Friday."
+    ],
+    "forms": [
+      "submission",
+      "submissive"
+    ],
+    "id": "DAY_05_submit"
+  },
+  {
+    "day": "DAY 05",
+    "word": "comfort",
+    "part": "n. / v.",
+    "ko": "편안, 위로 / 위로하다",
+    "def": "a feeling of ease or relief; to make someone feel better",
+    "syn": [
+      "comfortable"
+    ],
+    "ant": [
+      "discomfort",
+      "distress"
+    ],
+    "examples": [
+      "Modern industrial robots have significantly contributed to comfort and safety of work environments.",
+      "Her kind words gave me comfort."
+    ],
+    "forms": [],
+    "id": "DAY_05_comfort"
+  },
+  {
+    "day": "DAY 05",
+    "word": "threat",
+    "part": "n.",
+    "ko": "위협, 협박",
+    "def": "a danger or warning of possible harm",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The barrier protects Zeeland from the constant threat of flooding.",
+      "Pollution is a serious threat to wildlife."
+    ],
+    "forms": [
+      "threaten",
+      "threatening"
+    ],
+    "id": "DAY_05_threat"
+  },
+  {
+    "day": "DAY 05",
+    "word": "derive",
+    "part": "v.",
+    "ko": "얻다, 끌어내다, 유래하다",
+    "def": "to get something from a source or origin",
+    "syn": [
+      "obtain",
+      "gain"
+    ],
+    "ant": [],
+    "examples": [
+      "Biodiesel refers to a diesel-equivalent fuel derived from biological sources.",
+      "Many English words derive from Latin."
+    ],
+    "forms": [
+      "derivation"
+    ],
+    "id": "DAY_05_derive"
+  },
+  {
+    "day": "DAY 05",
+    "word": "relate",
+    "part": "v.",
+    "ko": "관련시키다, 관련이 있다",
+    "def": "to show or have a connection between things",
+    "syn": [
+      "connect"
+    ],
+    "ant": [],
+    "examples": [
+      "When you read your textbooks, try to relate the information to your own life.",
+      "The story relates to problems many students face."
+    ],
+    "forms": [
+      "relative",
+      "relation"
+    ],
+    "id": "DAY_05_relate"
+  },
+  {
+    "day": "DAY 05",
+    "word": "describe",
+    "part": "v.",
+    "ko": "묘사하다, 서술하다",
+    "def": "to say what someone or something is like",
+    "syn": [
+      "explain",
+      "depict",
+      "portray"
+    ],
+    "ant": [],
+    "examples": [
+      "The term multitasking was used to describe the actions of computers, not people.",
+      "Can you describe what happened?"
+    ],
+    "forms": [
+      "description"
+    ],
+    "id": "DAY_05_describe"
+  },
+  {
+    "day": "DAY 05",
+    "word": "identify",
+    "part": "v.",
+    "ko": "식별하다, 확인하다",
+    "def": "to recognize and name someone or something",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Doctors should identify root causes of disease to come up with a personalized treatment.",
+      "The witness could identify the suspect."
+    ],
+    "forms": [
+      "identified",
+      "identification"
+    ],
+    "id": "DAY_05_identify"
+  },
+  {
+    "day": "DAY 05",
+    "word": "logic",
+    "part": "n.",
+    "ko": "논리, 타당성",
+    "def": "a way of thinking clearly and reasonably",
+    "syn": [
+      "logical"
+    ],
+    "ant": [],
+    "examples": [
+      "Logic is the set of rules for valid reasoning.",
+      "The logic of his argument was easy to follow."
+    ],
+    "forms": [],
+    "id": "DAY_05_logic"
+  },
+  {
+    "day": "DAY 05",
+    "word": "royal",
+    "part": "adj.",
+    "ko": "왕의, 왕족의",
+    "def": "related to a king, queen, or their family",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "A foot was the length of the royal foot, and an inch was the length of the royal thumb.",
+      "The royal family attended the ceremony."
+    ],
+    "forms": [
+      "royalty"
+    ],
+    "id": "DAY_05_royal"
+  },
+  {
+    "day": "DAY 05",
+    "word": "sprout",
+    "part": "v.",
+    "ko": "싹트다, 생기다",
+    "def": "to start to grow shoots or leaves",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "For the seeds of the canary tree to sprout, they need to first be digested by the Dodo bird.",
+      "New leaves began to sprout in spring."
+    ],
+    "forms": [],
+    "id": "DAY_05_sprout"
+  },
+  {
+    "day": "DAY 05",
+    "word": "simulation",
+    "part": "n.",
+    "ko": "모의실험, 흉내 내기",
+    "def": "a model or practice activity that represents a real situation",
+    "syn": [
+      "simulate"
+    ],
+    "ant": [],
+    "examples": [
+      "The simulation makes the written material more understandable by presenting it in a visual way.",
+      "The students used a computer simulation to study weather."
+    ],
+    "forms": [],
+    "id": "DAY_05_simulation"
+  },
+  {
+    "day": "DAY 05",
+    "word": "maze",
+    "part": "n.",
+    "ko": "미로, 미궁",
+    "def": "a confusing network of paths or passages",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The researchers fed the bacteria to mice and then tested the mice in a maze.",
+      "We got lost in the maze of narrow streets."
+    ],
+    "forms": [],
+    "id": "DAY_05_maze"
+  },
+  {
+    "day": "DAY 05",
+    "word": "by-product",
+    "part": "n.",
+    "ko": "부산물",
+    "def": "something produced as a result of making something else",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The Information Age is a by-product of collective invention.",
+      "Smoke is a by-product of burning wood."
+    ],
+    "forms": [],
+    "id": "DAY_05_by-product"
+  },
+  {
+    "day": "DAY 05",
+    "word": "discord",
+    "part": "n.",
+    "ko": "불화, 다툼",
+    "def": "disagreement between people",
+    "syn": [
+      "conflict",
+      "dispute"
+    ],
+    "ant": [
+      "accord"
+    ],
+    "examples": [
+      "Even the happiest family will experience some discord because disagreements will arise.",
+      "The argument caused discord among the team members."
+    ],
+    "forms": [],
+    "id": "DAY_05_discord"
+  },
+  {
+    "day": "DAY 05",
+    "word": "gratitude",
+    "part": "n.",
+    "ko": "감사, 고마움",
+    "def": "a feeling of being thankful",
+    "syn": [
+      "thankfulness"
+    ],
+    "ant": [
+      "ingratitude"
+    ],
+    "examples": [
+      "Energize your life by starting each day with gratitude.",
+      "She expressed her gratitude for their help."
+    ],
+    "forms": [],
+    "id": "DAY_05_gratitude"
+  },
+  {
+    "day": "DAY 05",
+    "word": "bundle",
+    "part": "n.",
+    "ko": "묶음, 꾸러미",
+    "def": "a group of things tied or wrapped together",
+    "syn": [
+      "bunch",
+      "group",
+      "pile"
+    ],
+    "ant": [],
+    "examples": [
+      "Roses are ten dollars per bundle and tulips are five dollars per bundle.",
+      "He carried a bundle of newspapers."
+    ],
+    "forms": [],
+    "id": "DAY_05_bundle"
+  },
+  {
+    "day": "DAY 05",
+    "word": "temperate",
+    "part": "adj.",
+    "ko": "기후가 온화한, 차분한",
+    "def": "having mild temperatures; calm and moderate",
+    "syn": [
+      "mild",
+      "moderate"
+    ],
+    "ant": [],
+    "examples": [
+      "Artists attracted to Mexico like the unhindered way of life and enjoy the temperate climate.",
+      "The island has a temperate climate."
+    ],
+    "forms": [],
+    "id": "DAY_05_temperate"
+  },
+  {
+    "day": "DAY 05",
+    "word": "impair",
+    "part": "v.",
+    "ko": "손상시키다, 약화시키다",
+    "def": "to damage or weaken something",
+    "syn": [],
+    "ant": [
+      "improve"
+    ],
+    "examples": [
+      "As long as neither your brain nor your ears are impaired, hearing is involuntary.",
+      "Lack of sleep can impair memory."
+    ],
+    "forms": [
+      "impairment"
+    ],
+    "id": "DAY_05_impair"
+  },
+  {
+    "day": "DAY 05",
+    "word": "vendor",
+    "part": "n.",
+    "ko": "노점상, 행상인",
+    "def": "a person who sells things, especially on the street",
+    "syn": [
+      "seller",
+      "salesperson"
+    ],
+    "ant": [],
+    "examples": [
+      "Street vendors are not allowed on this street.",
+      "A fruit vendor was selling apples."
+    ],
+    "forms": [],
+    "id": "DAY_05_vendor"
+  },
+  {
+    "day": "DAY 05",
+    "word": "cradle",
+    "part": "n. / v.",
+    "ko": "요람, 발상지 / 흔들어 달래다",
+    "def": "a small bed for a baby; a place where something begins",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "In Scandinavia, the welfare state is characterized by the principle of cradle to grave.",
+      "The mother gently cradled the baby."
+    ],
+    "forms": [],
+    "id": "DAY_05_cradle"
+  },
+  {
+    "day": "DAY 05",
+    "word": "expose",
+    "part": "v.",
+    "ko": "노출하다, 드러내다, 폭로하다",
+    "def": "to show something hidden or put someone in contact with something",
+    "syn": [
+      "uncover",
+      "reveal",
+      "show"
+    ],
+    "ant": [
+      "hide",
+      "conceal"
+    ],
+    "examples": [
+      "The new species may be exposed to a disease for which it lacks resistance.",
+      "The report exposed serious problems."
+    ],
+    "forms": [
+      "exposure"
+    ],
+    "id": "DAY_05_expose"
+  },
+  {
+    "day": "DAY 05",
+    "word": "urge",
+    "part": "v. / n.",
+    "ko": "강요하다, 촉구하다 / 충동, 욕구",
+    "def": "to strongly advise or try to persuade someone to do something",
+    "syn": [
+      "impulse"
+    ],
+    "ant": [
+      "reluctance",
+      "discourage"
+    ],
+    "examples": [
+      "I managed to overcome my urge to burst into tears.",
+      "Teachers urge students to read every day."
+    ],
+    "forms": [
+      "urgent",
+      "urgency"
+    ],
+    "id": "DAY_05_urge"
+  },
+  {
+    "day": "DAY 05",
+    "word": "core",
+    "part": "n.",
+    "ko": "중심부, 핵심",
+    "def": "the central or most important part of something",
+    "syn": [
+      "center"
+    ],
+    "ant": [],
+    "examples": [
+      "The sun is slowly getting brighter as its core contracts and heats up.",
+      "Honesty is at the core of friendship."
+    ],
+    "forms": [],
+    "id": "DAY_05_core"
+  },
+  {
+    "day": "DAY 05",
+    "word": "rapid",
+    "part": "adj.",
+    "ko": "빠른, 급속한",
+    "def": "happening very quickly",
+    "syn": [
+      "swift"
+    ],
+    "ant": [
+      "slow",
+      "gradual"
+    ],
+    "examples": [
+      "When people sleep, breathing becomes less rapid and more relaxed.",
+      "The city experienced rapid growth."
+    ],
+    "forms": [
+      "rapidly"
+    ],
+    "id": "DAY_05_rapid"
+  },
+  {
+    "day": "DAY 05",
+    "word": "frequent",
+    "part": "adj.",
+    "ko": "잦은, 빈번한",
+    "def": "happening often",
+    "syn": [],
+    "ant": [
+      "infrequent"
+    ],
+    "examples": [
+      "Eye doctors recommend that you take frequent breaks from your computer.",
+      "Frequent practice helps improve pronunciation."
+    ],
+    "forms": [
+      "frequently",
+      "frequency"
+    ],
+    "id": "DAY_05_frequent"
+  },
+  {
+    "day": "DAY 05",
+    "word": "terrific",
+    "part": "adj.",
+    "ko": "훌륭한, 아주 멋진",
+    "def": "very good or impressive",
+    "syn": [
+      "excellent",
+      "outstanding"
+    ],
+    "ant": [
+      "awful"
+    ],
+    "examples": [
+      "You can buy terrific books, CDs, and magazines at a low price.",
+      "We had a terrific time at the concert."
+    ],
+    "forms": [],
+    "id": "DAY_05_terrific"
+  },
+  {
+    "day": "DAY 05",
+    "word": "extract",
+    "part": "v. / n.",
+    "ko": "추출하다, 끌어내다 / 추출물",
+    "def": "to remove or take out something",
+    "syn": [
+      "pull out",
+      "draw"
+    ],
+    "ant": [],
+    "examples": [
+      "Huge machines were used to extract new materials.",
+      "Vanilla extract is used in many desserts."
+    ],
+    "forms": [
+      "extraction"
+    ],
+    "id": "DAY_05_extract"
+  },
+  {
+    "day": "DAY 05",
+    "word": "dread",
+    "part": "n. / v.",
+    "ko": "두려움 / 두려워하다",
+    "def": "great fear or worry",
+    "syn": [
+      "fear",
+      "terror"
+    ],
+    "ant": [],
+    "examples": [
+      "We began to shiver at the sense of dread.",
+      "She felt dread before the exam."
+    ],
+    "forms": [
+      "dreadful"
+    ],
+    "id": "DAY_05_dread"
+  },
+  {
+    "day": "DAY 05",
+    "word": "inflow",
+    "part": "n.",
+    "ko": "유입(량), 유입물",
+    "def": "the movement of liquid, money, or people into a place",
+    "syn": [
+      "outflow"
+    ],
+    "ant": [],
+    "examples": [
+      "The evaporation exceeded the inflow of fresh water, and reduced the size of the lake.",
+      "The city saw a large inflow of tourists."
+    ],
+    "forms": [],
+    "id": "DAY_05_inflow"
+  },
+  {
+    "day": "DAY 05",
+    "word": "contemplate",
+    "part": "v.",
+    "ko": "고려하다, 심사숙고하다",
+    "def": "to think about something carefully for a long time",
+    "syn": [
+      "consider",
+      "ponder"
+    ],
+    "ant": [],
+    "examples": [
+      "Perspective and creative strengths are all important in any career you can contemplate.",
+      "She sat quietly to contemplate her decision."
+    ],
+    "forms": [
+      "contemplation"
+    ],
+    "id": "DAY_05_contemplate"
+  },
+  {
+    "day": "DAY 05",
+    "word": "durable",
+    "part": "adj.",
+    "ko": "내구성이 있는, 오래가는",
+    "def": "strong and able to last for a long time",
+    "syn": [
+      "sturdy",
+      "lasting"
+    ],
+    "ant": [
+      "fragile"
+    ],
+    "examples": [
+      "Metal is more durable than silicone.",
+      "This bag is light but durable."
+    ],
+    "forms": [
+      "durability"
+    ],
+    "id": "DAY_05_durable"
+  },
+  {
+    "day": "DAY 05",
+    "word": "plow",
+    "part": "v. / n.",
+    "ko": "일구다, 갈다 / 쟁기",
+    "def": "to dig and turn over soil with a plow",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "He changed how he plows his fields.",
+      "Farmers plow the land before planting seeds."
+    ],
+    "forms": [],
+    "id": "DAY_05_plow"
+  },
+  {
+    "day": "DAY 05",
+    "word": "sovereign",
+    "part": "adj. / n.",
+    "ko": "독립된, 자주적인 / 군주, 국왕",
+    "def": "having independent power; a ruler such as a king or queen",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "A sovereign state is one that can determine its own affairs without interference from the outside.",
+      "The sovereign ruled the country for many years."
+    ],
+    "forms": [
+      "sovereignty"
+    ],
+    "id": "DAY_05_sovereign"
+  },
+  {
+    "day": "DAY 05",
+    "word": "attendee",
+    "part": "n.",
+    "ko": "참석자, 출석자",
+    "def": "a person who attends an event",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Prom attendees must arrive by 7 p.m.",
+      "Every attendee received a name tag."
+    ],
+    "forms": [
+      "attend",
+      "attendant"
+    ],
+    "id": "DAY_05_attendee"
+  },
+  {
+    "day": "DAY 05",
+    "word": "concur",
+    "part": "v.",
+    "ko": "동의하다, 일치하다, 동시에 일어나다",
+    "def": "to agree or happen at the same time",
+    "syn": [
+      "agree",
+      "coincide"
+    ],
+    "ant": [
+      "disagree"
+    ],
+    "examples": [
+      "There were a host of possibilities, but the experts concurred on the one point.",
+      "The two reports concur on the main cause."
+    ],
+    "forms": [
+      "concurrent"
+    ],
+    "id": "DAY_05_concur"
+  },
+  {
+    "day": "DAY 05",
+    "word": "deficient",
+    "part": "adj.",
+    "ko": "부족한, 결핍된",
+    "def": "not having enough of something necessary",
+    "syn": [
+      "lacking",
+      "inadequate"
+    ],
+    "ant": [
+      "sufficient",
+      "excessive"
+    ],
+    "examples": [
+      "When your body is deficient in water, the skin's surface eventually shows the problem.",
+      "A diet deficient in vitamins can harm your health."
+    ],
+    "forms": [
+      "deficiency",
+      "deficit"
+    ],
+    "id": "DAY_05_deficient"
+  },
+  {
+    "day": "DAY 05",
+    "word": "monarch",
+    "part": "n.",
+    "ko": "군주",
+    "def": "a king or queen",
+    "syn": [
+      "ruler",
+      "king"
+    ],
+    "ant": [],
+    "examples": [
+      "Buffon was a famous zoologist and botanist during the reign of the French monarch Louis XVI.",
+      "The monarch addressed the nation."
+    ],
+    "forms": [
+      "monarchy"
+    ],
+    "id": "DAY_05_monarch"
+  },
+  {
+    "day": "DAY 05",
+    "word": "torment",
+    "part": "n. / v.",
+    "ko": "고통, 고민거리 / 괴롭히다, 고통을 주다",
+    "def": "great suffering; to cause someone severe pain or worry",
+    "syn": [
+      "suffering",
+      "distress"
+    ],
+    "ant": [],
+    "examples": [
+      "She missed several days of school to avoid torment.",
+      "The memory continued to torment him."
+    ],
+    "forms": [
+      "tormenting"
+    ],
+    "id": "DAY_05_torment"
+  },
+  {
+    "day": "DAY 05",
+    "word": "tyrant",
+    "part": "n.",
+    "ko": "독재자, 폭군",
+    "def": "a ruler who uses power cruelly or unfairly",
+    "syn": [
+      "dictator"
+    ],
+    "ant": [],
+    "examples": [
+      "E-mail has become an electronic tyrant.",
+      "The people rose up against the tyrant."
+    ],
+    "forms": [
+      "tyranny"
+    ],
+    "id": "DAY_05_tyrant"
+  },
+  {
+    "day": "DAY 06",
+    "word": "possible",
+    "part": "adj.",
+    "ko": "가능한, 있음직한",
+    "def": "able to happen or be done",
+    "syn": [
+      "feasible"
+    ],
+    "ant": [
+      "impossible"
+    ],
+    "examples": [
+      "Language makes communication possible because its users share the same code.",
+      "It is possible to finish the work today."
+    ],
+    "forms": [
+      "possibility",
+      "as soon as possible"
+    ],
+    "id": "DAY_06_possible"
+  },
+  {
+    "day": "DAY 06",
+    "word": "annual",
+    "part": "adj.",
+    "ko": "연례의, 연간의",
+    "def": "happening once every year",
+    "syn": [
+      "yearly"
+    ],
+    "ant": [],
+    "examples": [
+      "Fremont Art College will be hosting its 7th Annual Art Exhibition for one week.",
+      "The school holds an annual concert."
+    ],
+    "forms": [
+      "annually"
+    ],
+    "id": "DAY_06_annual"
+  },
+  {
+    "day": "DAY 06",
+    "word": "respond",
+    "part": "v.",
+    "ko": "반응하다, 대응하다, 대답하다",
+    "def": "to answer or react to something",
+    "syn": [
+      "react"
+    ],
+    "ant": [],
+    "examples": [
+      "In one study, researchers looked at how people respond to life challenges.",
+      "He did not respond to my question."
+    ],
+    "forms": [
+      "response",
+      "respondent"
+    ],
+    "id": "DAY_06_respond"
+  },
+  {
+    "day": "DAY 06",
+    "word": "labor",
+    "part": "n. / v.",
+    "ko": "노동, 노동력 / 노동하다",
+    "def": "work, especially physical work",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The movement of labor is closely controlled by immigration policies.",
+      "The project required many hours of labor."
+    ],
+    "forms": [],
+    "id": "DAY_06_labor"
+  },
+  {
+    "day": "DAY 06",
+    "word": "status",
+    "part": "n.",
+    "ko": "지위, 신분, 상태",
+    "def": "social or professional position; condition",
+    "syn": [
+      "rank",
+      "position"
+    ],
+    "ant": [],
+    "examples": [
+      "In traditional societies, high status has been extremely hard to acquire.",
+      "The patient is in stable status."
+    ],
+    "forms": [],
+    "id": "DAY_06_status"
+  },
+  {
+    "day": "DAY 06",
+    "word": "accompany",
+    "part": "v.",
+    "ko": "동행하다, 동반하다",
+    "def": "to go somewhere with someone",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Children under 14 must be accompanied by an adult.",
+      "She accompanied her friend to the station."
+    ],
+    "forms": [],
+    "id": "DAY_06_accompany"
+  },
+  {
+    "day": "DAY 06",
+    "word": "encounter",
+    "part": "v. / n.",
+    "ko": "직면하다, 마주치다 / 만남, 마주침",
+    "def": "to meet or face someone or something unexpectedly",
+    "syn": [
+      "confront",
+      "face"
+    ],
+    "ant": [],
+    "examples": [
+      "As a foreign student, you may encounter language problems in America.",
+      "We may encounter difficulties along the way."
+    ],
+    "forms": [],
+    "id": "DAY_06_encounter"
+  },
+  {
+    "day": "DAY 06",
+    "word": "sufficient",
+    "part": "adj.",
+    "ko": "충분한, 흡족한",
+    "def": "enough for a particular purpose",
+    "syn": [],
+    "ant": [
+      "insufficient"
+    ],
+    "examples": [
+      "We have sufficient foresight into the future.",
+      "There was sufficient evidence to prove the point."
+    ],
+    "forms": [
+      "sufficiently",
+      "sufficiency"
+    ],
+    "id": "DAY_06_sufficient"
+  },
+  {
+    "day": "DAY 06",
+    "word": "succeed",
+    "part": "v.",
+    "ko": "성공하다, 뒤를 잇다",
+    "def": "to achieve what you want; to come after someone",
+    "syn": [
+      "win",
+      "triumph"
+    ],
+    "ant": [
+      "fail",
+      "precede"
+    ],
+    "examples": [
+      "We all want to succeed in everything we try and to avoid failure.",
+      "She worked hard to succeed in business."
+    ],
+    "forms": [
+      "successful",
+      "successive"
+    ],
+    "id": "DAY_06_succeed"
+  },
+  {
+    "day": "DAY 06",
+    "word": "stem",
+    "part": "n. / v.",
+    "ko": "줄기, 대 / 유래하다, 생기다",
+    "def": "the main part of a plant; to come from something",
+    "syn": [
+      "stalk"
+    ],
+    "ant": [],
+    "examples": [
+      "The rafflesia has no stem or leaves.",
+      "Many problems stem from poor communication."
+    ],
+    "forms": [
+      "stem from"
+    ],
+    "id": "DAY_06_stem"
+  },
+  {
+    "day": "DAY 06",
+    "word": "restrict",
+    "part": "v.",
+    "ko": "제한하다, 금지하다",
+    "def": "to limit something",
+    "syn": [
+      "limit"
+    ],
+    "ant": [],
+    "examples": [
+      "It is difficult to restrict internet access by children.",
+      "The rule restricts the use of phones."
+    ],
+    "forms": [
+      "restriction",
+      "restrictive"
+    ],
+    "id": "DAY_06_restrict"
+  },
+  {
+    "day": "DAY 06",
+    "word": "compensation",
+    "part": "n.",
+    "ko": "보상(금), 보충",
+    "def": "money or something given to make up for loss or work",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "People accept offers when the monetary compensation is near the amount that they were hoping for.",
+      "The worker received compensation for the injury."
+    ],
+    "forms": [
+      "compensate"
+    ],
+    "id": "DAY_06_compensation"
+  },
+  {
+    "day": "DAY 06",
+    "word": "departure",
+    "part": "n.",
+    "ko": "출발, 떠남",
+    "def": "the act of leaving a place",
+    "syn": [
+      "leave",
+      "take off"
+    ],
+    "ant": [
+      "arrival"
+    ],
+    "examples": [
+      "Cancellations received at least one day prior to the departure date can be fully refunded.",
+      "The departure time is printed on the ticket."
+    ],
+    "forms": [
+      "depart"
+    ],
+    "id": "DAY_06_departure"
+  },
+  {
+    "day": "DAY 06",
+    "word": "pretend",
+    "part": "v.",
+    "ko": "~인 척하다, 가장하다",
+    "def": "to behave as if something is true when it is not",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "You don't have to try to pretend to be happy.",
+      "The child pretended to be a doctor."
+    ],
+    "forms": [
+      "pretension"
+    ],
+    "id": "DAY_06_pretend"
+  },
+  {
+    "day": "DAY 06",
+    "word": "infer",
+    "part": "v.",
+    "ko": "추론하다, 추측하다, 암시하다",
+    "def": "to form an opinion from evidence or reasoning",
+    "syn": [
+      "deduce",
+      "reason"
+    ],
+    "ant": [],
+    "examples": [
+      "Galileo inferred that if the ramp were flat, the ball would roll forever at a steady rate.",
+      "From the clues, we can infer the answer."
+    ],
+    "forms": [
+      "inference",
+      "inferable"
+    ],
+    "id": "DAY_06_infer"
+  },
+  {
+    "day": "DAY 06",
+    "word": "noble",
+    "part": "n. / adj.",
+    "ko": "귀족 / 고귀한, 웅장한, 귀족의",
+    "def": "a person of high rank; having fine moral qualities",
+    "syn": [
+      "nobility"
+    ],
+    "ant": [],
+    "examples": [
+      "After the war, the king made the man a noble.",
+      "It was a noble decision to help others."
+    ],
+    "forms": [],
+    "id": "DAY_06_noble"
+  },
+  {
+    "day": "DAY 06",
+    "word": "regulate",
+    "part": "v.",
+    "ko": "조절하다, 규제하다",
+    "def": "to control or manage something by rules or systems",
+    "syn": [
+      "control",
+      "manage"
+    ],
+    "ant": [],
+    "examples": [
+      "The human body changes in order to regulate body temperature more efficiently.",
+      "The law regulates the use of chemicals."
+    ],
+    "forms": [
+      "regulation",
+      "regulatory"
+    ],
+    "id": "DAY_06_regulate"
+  },
+  {
+    "day": "DAY 06",
+    "word": "barter",
+    "part": "n. / v.",
+    "ko": "물물교환 / 물물 교환하다",
+    "def": "to exchange goods without using money",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Before the invention of money, mankind used the barter system.",
+      "The villagers used to barter rice for tools."
+    ],
+    "forms": [],
+    "id": "DAY_06_barter"
+  },
+  {
+    "day": "DAY 06",
+    "word": "bilingual",
+    "part": "adj. / n.",
+    "ko": "이중 언어의 / 이중 언어 사용자",
+    "def": "able to use two languages",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The US tried to eliminate their skills by reducing existing bilingual programs.",
+      "She grew up in a bilingual family."
+    ],
+    "forms": [],
+    "id": "DAY_06_bilingual"
+  },
+  {
+    "day": "DAY 06",
+    "word": "credible",
+    "part": "adj.",
+    "ko": "신뢰할 수 있는, 믿을 만한",
+    "def": "able to be believed or trusted",
+    "syn": [],
+    "ant": [
+      "unreliable",
+      "unbelievable"
+    ],
+    "examples": [
+      "Nonverbal cues are more credible than verbal cues, especially when verbal and nonverbal cues conflict.",
+      "The witness gave a credible explanation."
+    ],
+    "forms": [
+      "credibility"
+    ],
+    "id": "DAY_06_credible"
+  },
+  {
+    "day": "DAY 06",
+    "word": "magnificent",
+    "part": "adj.",
+    "ko": "장엄한, 멋진, 훌륭한",
+    "def": "very impressive, beautiful, or excellent",
+    "syn": [
+      "splendid",
+      "impressive"
+    ],
+    "ant": [],
+    "examples": [
+      "What a magnificent view!",
+      "The palace was magnificent."
+    ],
+    "forms": [],
+    "id": "DAY_06_magnificent"
+  },
+  {
+    "day": "DAY 06",
+    "word": "vibrate",
+    "part": "v.",
+    "ko": "진동하다, 떨다, 흔들리게 하다",
+    "def": "to move quickly back and forth",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "I thought I felt my phone vibrate, but I didn't receive any calls or texts.",
+      "The machine began to vibrate loudly."
+    ],
+    "forms": [
+      "vibrant",
+      "vibration"
+    ],
+    "id": "DAY_06_vibrate"
+  },
+  {
+    "day": "DAY 06",
+    "word": "rotten",
+    "part": "adj.",
+    "ko": "썩은, 부패한, 형편없는",
+    "def": "decayed and no longer fresh",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "If the birds pecked at the tree, that indicated it was rotten.",
+      "The apple smelled rotten."
+    ],
+    "forms": [],
+    "id": "DAY_06_rotten"
+  },
+  {
+    "day": "DAY 06",
+    "word": "replicate",
+    "part": "v. / adj.",
+    "ko": "모사하다, 복제하다 / 반복되는",
+    "def": "to copy or repeat something exactly",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "No one's been able to replicate the research.",
+      "Scientists tried to replicate the experiment."
+    ],
+    "forms": [
+      "replication"
+    ],
+    "id": "DAY_06_replicate"
+  },
+  {
+    "day": "DAY 06",
+    "word": "arouse",
+    "part": "v.",
+    "ko": "불러일으키다, 자극하다, 각성시키다",
+    "def": "to cause a feeling or reaction",
+    "syn": [
+      "cause",
+      "bring about"
+    ],
+    "ant": [],
+    "examples": [
+      "Warm colors can arouse various emotions, ranging from comfort to anger.",
+      "The story aroused my curiosity."
+    ],
+    "forms": [
+      "arousal"
+    ],
+    "id": "DAY_06_arouse"
+  },
+  {
+    "day": "DAY 06",
+    "word": "consent",
+    "part": "n. / v.",
+    "ko": "동의, 승낙 / 동의하다, 승낙하다",
+    "def": "permission or agreement; to agree to something",
+    "syn": [
+      "agreement"
+    ],
+    "ant": [
+      "refusal"
+    ],
+    "examples": [
+      "Civil organizations have asked to ban mail marketing to children without the consent of their parents.",
+      "You need parental consent to join the trip."
+    ],
+    "forms": [
+      "refuse"
+    ],
+    "id": "DAY_06_consent"
+  },
+  {
+    "day": "DAY 06",
+    "word": "assert",
+    "part": "v.",
+    "ko": "주장하다, 확고히 하다",
+    "def": "to state something clearly and firmly",
+    "syn": [
+      "state",
+      "argue"
+    ],
+    "ant": [
+      "deny"
+    ],
+    "examples": [
+      "The members assert their well-reasoned points of view while pointing out flaws in other members' logic.",
+      "She asserted her right to speak."
+    ],
+    "forms": [
+      "assertive",
+      "assertion"
+    ],
+    "id": "DAY_06_assert"
+  },
+  {
+    "day": "DAY 06",
+    "word": "contend",
+    "part": "v.",
+    "ko": "논쟁하다, 다투다, 주장하다",
+    "def": "to argue or compete with someone",
+    "syn": [
+      "argue",
+      "debate"
+    ],
+    "ant": [],
+    "examples": [
+      "We have to contend with differences between what we and the children think about a given situation.",
+      "Several teams will contend for the prize."
+    ],
+    "forms": [],
+    "id": "DAY_06_contend"
+  },
+  {
+    "day": "DAY 06",
+    "word": "practicable",
+    "part": "adj.",
+    "ko": "실행 가능한, 실천 가능한",
+    "def": "able to be done or used successfully",
+    "syn": [],
+    "ant": [
+      "impracticable"
+    ],
+    "examples": [
+      "At least, we have to work out a practicable solution.",
+      "The plan is simple and practicable."
+    ],
+    "forms": [
+      "practice"
+    ],
+    "id": "DAY_06_practicable"
+  },
+  {
+    "day": "DAY 06",
+    "word": "bribe",
+    "part": "n. / v.",
+    "ko": "뇌물 / 뇌물을 주다, 매수하다",
+    "def": "money or a gift given to make someone do something dishonest",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The offer of cash to residents of the village felt like a bribe, an effort to buy their vote.",
+      "The official refused to accept a bribe."
+    ],
+    "forms": [
+      "bribery"
+    ],
+    "id": "DAY_06_bribe"
+  },
+  {
+    "day": "DAY 06",
+    "word": "traitor",
+    "part": "n.",
+    "ko": "반역자, 배반자",
+    "def": "a person who betrays their country, group, or friends",
+    "syn": [
+      "betrayer"
+    ],
+    "ant": [],
+    "examples": [
+      "Owing to a Greek traitor, Greece was defeated and every man died.",
+      "The traitor revealed the secret plan."
+    ],
+    "forms": [
+      "traitorous"
+    ],
+    "id": "DAY_06_traitor"
+  },
+  {
+    "day": "DAY 06",
+    "word": "deteriorate",
+    "part": "v.",
+    "ko": "악화되다, 더 나빠지다",
+    "def": "to become worse",
+    "syn": [
+      "worsen",
+      "decline"
+    ],
+    "ant": [
+      "improve"
+    ],
+    "examples": [
+      "When elderly people were deprived of the meaningful social roles, their mental functioning deteriorated.",
+      "The weather began to deteriorate."
+    ],
+    "forms": [
+      "deterioration",
+      "deteriorative"
+    ],
+    "id": "DAY_06_deteriorate"
+  },
+  {
+    "day": "DAY 06",
+    "word": "alliance",
+    "part": "n.",
+    "ko": "동맹, 연합",
+    "def": "an agreement between groups or countries to work together",
+    "syn": [
+      "union",
+      "association"
+    ],
+    "ant": [
+      "division"
+    ],
+    "examples": [
+      "We are looking forward to a long and successful alliance with NJ Corporation.",
+      "The two countries formed an alliance."
+    ],
+    "forms": [
+      "ally"
+    ],
+    "id": "DAY_06_alliance"
+  },
+  {
+    "day": "DAY 06",
+    "word": "wholesale",
+    "part": "adj. / n. / v.",
+    "ko": "도매의, 대규모의 / 도매 / 도매하다",
+    "def": "related to selling goods in large quantities",
+    "syn": [
+      "retail"
+    ],
+    "ant": [],
+    "examples": [
+      "He started a venture with a wholesale company.",
+      "The store buys goods at wholesale prices."
+    ],
+    "forms": [
+      "wholesaler",
+      "wholesaling"
+    ],
+    "id": "DAY_06_wholesale"
+  },
+  {
+    "day": "DAY 06",
+    "word": "divorce",
+    "part": "n. / v.",
+    "ko": "이혼, 분리, 단절 / 이혼하다",
+    "def": "the legal ending of a marriage; to legally end a marriage",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Divorce rates have been rising in many countries around the world.",
+      "The couple decided to divorce after many years."
+    ],
+    "forms": [],
+    "id": "DAY_06_divorce"
+  },
+  {
+    "day": "DAY 06",
+    "word": "legacy",
+    "part": "n.",
+    "ko": "유산, 유물",
+    "def": "something left from the past or from someone who has died",
+    "syn": [
+      "inheritance"
+    ],
+    "ant": [],
+    "examples": [
+      "Rome left an enduring legacy in many areas and multiple ways.",
+      "The scientist left a legacy of important discoveries."
+    ],
+    "forms": [],
+    "id": "DAY_06_legacy"
+  },
+  {
+    "day": "DAY 06",
+    "word": "grin",
+    "part": "v. / n.",
+    "ko": "활짝 웃다 / 활짝 웃음",
+    "def": "to smile widely",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "Rangan grinned at the kind words the old man spoke to him.",
+      "She gave a big grin when she heard the news."
+    ],
+    "forms": [],
+    "id": "DAY_06_grin"
+  },
+  {
+    "day": "DAY 06",
+    "word": "taboo",
+    "part": "n.",
+    "ko": "금기, 금기시되는 것",
+    "def": "something that people avoid because society considers it forbidden",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "For the Inuit, it was a taboo to store reindeer and seal meat together.",
+      "In some cultures, certain topics are taboo."
+    ],
+    "forms": [],
+    "id": "DAY_06_taboo"
+  },
+  {
+    "day": "DAY 06",
+    "word": "bald",
+    "part": "adj.",
+    "ko": "대머리의, 꾸밈없는, 노골적인",
+    "def": "having little or no hair on the head",
+    "syn": [],
+    "ant": [],
+    "examples": [
+      "The researchers found that 88 percent of smokers were bald or had gray hair.",
+      "The bald man wore a hat."
+    ],
+    "forms": [],
+    "id": "DAY_06_bald"
+  },
+  {
+    "day": "DAY 06",
+    "word": "cozy",
+    "part": "adj.",
+    "ko": "아늑한, 친밀한, 편한",
+    "def": "warm, comfortable, and pleasant",
+    "syn": [
+      "comfortable"
+    ],
+    "ant": [],
+    "examples": [
+      "The fireplace creates a cozy atmosphere.",
+      "We sat in a cozy room by the fire."
+    ],
+    "forms": [],
+    "id": "DAY_06_cozy"
+  },
+  {
     "day": "DAY 08",
     "word": "difference",
     "part": "n.",
