@@ -3,533 +3,72 @@ html,body{margin:0;height:100%;background:#f5f5f5;color:#111;font-family:Arial,H
 button{font-family:Arial,Helvetica,sans-serif;background:transparent;cursor:pointer}
 .screen{min-height:100dvh;position:relative}
 .hidden{display:none!important}
-
-/* 버튼: 마지막 가이드 기준 */
-.circle-btn{
-  width:25px;height:25px;border:1px solid #b5b5b5;border-radius:50%;
-  color:#b5b5b5;background:#fff;font-size:13px;line-height:1;
-  display:flex;align-items:center;justify-content:center;position:absolute;
-  padding:0;font-weight:300
-}
+.circle-btn{width:25px;height:25px;border:1px solid #b5b5b5;border-radius:50%;color:#b5b5b5;background:#fff;font-size:13px;line-height:1;display:flex;align-items:center;justify-content:center;position:absolute;padding:0;font-weight:300}
 .circle-btn:hover{border-color:#111;color:#111}
-.pill{
-  height:29px;border:1px solid #d2d2d2;border-radius:999px;color:#aaa;background:#fff;
-  font-size:11px;letter-spacing:-.02em;padding:0 22px;min-width:88px;font-weight:300
-}
+.pill{height:29px;border:1px solid #d2d2d2;border-radius:999px;color:#aaa;background:#fff;font-size:11px;letter-spacing:-.02em;padding:0 22px;min-width:88px;font-weight:300}
 .pill:hover,.pill.active{background:#1d120e;border-color:#1d120e;color:#fff}
-
-/* 목차 */
 .toc-screen{background:#fff;padding:3.8vh 2.5vw}
 .toc-frame{position:relative;width:100%;height:92vh}
-.review-main{
-  position:absolute;right:4.2vw;top:10.6vh;
-  height:49px;min-width:137px;border:0;border-radius:999px;
-  background:#9c9c9c;color:#fff;font-size:16px;font-weight:300;letter-spacing:.01em
-}
+.review-main{position:absolute;right:4.2vw;top:10.6vh;height:49px;min-width:137px;border:0;border-radius:999px;background:#9c9c9c;color:#fff;font-size:16px;font-weight:300;letter-spacing:.01em}
 .review-main:hover{background:#1d120e;color:#fff}
-.toc-grid{
-  position:absolute;left:4.4vw;right:4.4vw;top:19.6vh;
-  display:grid;grid-template-columns:repeat(9,1fr);gap:26px 12px
-}
-.day-tile{
-  height:74px;border:1px solid #b7b7b7;color:#9f9f9f;background:#fff;
-  font-size:20px;font-weight:300;letter-spacing:.02em
-}
-.day-tile:hover{color:#111;border-color:#111}
-.day-tile:disabled{cursor:default}
-
-/* 카드 화면 */
+.toc-grid{position:absolute;left:4.4vw;right:4.4vw;top:19.6vh;display:grid;grid-template-columns:repeat(9,1fr);gap:26px 12px}
+.day-tile{height:74px;border:1px solid #b7b7b7;color:#9f9f9f;background:#fff;font-size:20px;font-weight:300;letter-spacing:.02em}
+.day-tile:hover{color:#111;border-color:#111}.day-tile:disabled{cursor:default}
 .card-screen{background:#f4f4f4}
-.card{
-  position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);
-  width:610px;height:410px;background:#fff;border:0;overflow:hidden
-}
+.card{position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);width:610px;height:410px;background:#fff;border:0;overflow:hidden}
 .face{position:absolute;inset:0;padding:0;width:100%;height:100%;font-family:Georgia,"Times New Roman",serif}
-.sound-btn,.example-btn{right:18px;top:18px}
-.back-inside{left:18px;top:18px;font-size:24px}
-
-.front-word{
-  position:absolute;left:0;right:0;top:50%;transform:translateY(-52%);
-  text-align:center;font-size:50px;letter-spacing:.025em;line-height:1
-}
-
-/* 정의 카드: 고정 그리드 */
-.def-pos{
-  position:absolute;left:0;right:0;top:120px;text-align:center;
-  font-family:Arial,Helvetica,sans-serif;color:#555;font-size:14px;font-weight:300
-}
-.def-ko{
-  position:absolute;left:70px;right:70px;top:146px;text-align:center;
-  font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:1.25;font-weight:400
-}
-.def-en{
-  position:absolute;left:82px;right:82px;top:206px;height:82px;
-  font-size:19px;line-height:1.12;overflow:hidden
-}
-.rel-row{
-  position:absolute;left:82px;right:82px;top:318px;
-  display:grid;grid-template-columns:1fr 1fr;gap:28px;
-  font-family:Arial,Helvetica,sans-serif;font-size:17px
-}
-.synonyms{color:#0a54c9;text-align:left}
-.antonyms{color:#df0000;text-align:right}
-
-/* 예문 */
-.example-list{
-  position:absolute;left:82px;right:82px;top:82px;
-  font-size:19px;line-height:1.16
-}
+.sound-btn,.example-btn{right:18px;top:18px}.back-inside{left:18px;top:18px;font-size:24px}
+.front-word{position:absolute;left:0;right:0;top:50%;transform:translateY(-52%);text-align:center;font-size:50px;letter-spacing:.025em;line-height:1}
+.def-pos{position:absolute;left:0;right:0;top:120px;text-align:center;font-family:Arial,Helvetica,sans-serif;color:#555;font-size:14px;font-weight:300}
+.def-ko{position:absolute;left:70px;right:70px;top:146px;text-align:center;font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:1.25;font-weight:400}
+.def-en{position:absolute;left:82px;right:82px;top:206px;height:82px;font-size:19px;line-height:1.12;overflow:hidden}
+.rel-row{position:absolute;left:82px;right:82px;top:318px;display:grid;grid-template-columns:1fr 1fr;gap:28px;font-family:Arial,Helvetica,sans-serif;font-size:17px}
+.synonyms{color:#0a54c9;text-align:left}.antonyms{color:#df0000;text-align:right}
+.example-list{position:absolute;left:82px;right:82px;top:82px;font-size:19px;line-height:1.16}
 .example-item{position:relative;margin:0 0 34px 0;padding-left:28px}
-.example-sound{
-  position:absolute;left:0;top:1px;width:17px;height:17px;border:1px solid #aaa;
-  border-radius:50%;color:#999;background:#fff;font-size:8px;line-height:1;
-  display:flex;align-items:center;justify-content:center;padding:0
-}
+.example-sound{position:absolute;left:0;top:1px;width:17px;height:17px;border:1px solid #aaa;border-radius:50%;color:#999;background:#fff;font-size:8px;line-height:1;display:flex;align-items:center;justify-content:center;padding:0}
 .example-sound:hover{border-color:#111;color:#111}
-.highlight{
-  color:#111;
-  background:linear-gradient(to top, rgba(255,230,0,.72) 50%, transparent 50%);
-  text-decoration:none
-}
+.highlight{color:#111;background:linear-gradient(to top,rgba(255,230,0,.72) 50%,transparent 50%);text-decoration:none}
 .forms{position:absolute;left:82px;right:82px;bottom:72px;font-size:18px;color:#333}
-
-/* 화살표: 시안처럼 얇고 간결하게 */
-.home-button{
-  position:absolute;left:6.9vw;bottom:6.6vh;
-  width:30px;height:38px;border:0;background:transparent;padding:0;z-index:10;
-  font-size:0;color:transparent;
-}
-.home-button::before{
-  content:"";position:absolute;left:8px;top:7px;width:20px;height:20px;
-  border-left:1px solid #bfbfbf;border-bottom:1px solid #bfbfbf;
-  transform:rotate(45deg);
-}
+.home-button{position:absolute;left:6.9vw;bottom:6.6vh;width:30px;height:38px;border:0;background:transparent;padding:0;z-index:10;font-size:0!important;color:transparent!important}
+.home-button::before{content:"";position:absolute;left:8px;top:7px;width:20px;height:20px;border-left:1px solid #bfbfbf;border-bottom:1px solid #bfbfbf;transform:rotate(45deg)}
 .home-button:hover::before{border-color:#111}
+.page-arrow{position:absolute;top:50%;transform:translateY(-50%);width:30px;height:44px;border:0;background:transparent;padding:0;z-index:8;font-size:0!important;color:transparent!important}
+.page-arrow::before{content:"";position:absolute;top:11px;width:20px;height:20px;border-top:1px solid #b9b9b9;border-right:1px solid #b9b9b9}
+.page-left{left:23.8vw!important}.page-right{right:23.8vw!important}.page-left::before{left:7px;transform:rotate(-135deg)}.page-right::before{right:7px;transform:rotate(45deg)}.page-arrow:hover::before{border-color:#111}
+.under-card{position:absolute;left:50%;top:calc(48% + 222px);transform:translateX(-50%);width:610px;display:grid;grid-template-columns:1fr auto 1fr;align-items:start;height:42px}
+.day-label,.counter{font-size:10px;color:#111;line-height:29px}.counter{text-align:right}.card-actions{display:flex;gap:9px;justify-content:center}.small-pill{height:29px;min-width:86px;padding:0 17px;font-size:11px}
+.review-screen{background:#fff}.review-panel{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:460px}.review-tile{width:100%;height:58px;border:1px solid #b6b6b6;background:#fff;color:#777;margin-bottom:14px;font-size:15px;font-weight:300}.review-tile:hover{border-color:#111;color:#111}.review-tile.disabled{color:#aaa}.review-tile span{font-size:12px;margin-left:8px;color:#aaa}
+.sound-btn,.example-sound{font-size:0!important}.sound-btn::before{content:"";width:0;height:0;border-top:6px solid transparent;border-bottom:6px solid transparent;border-left:9px solid #9c9c9c;margin-left:2px}.sound-btn:hover::before{border-left-color:#111}.example-sound::before{content:"";width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid #9c9c9c;margin-left:1px}.example-sound:hover::before{border-left-color:#111}
+.example-list{left:82px!important;right:82px!important;top:132px!important;height:170px;overflow:hidden;font-size:19px;line-height:1.18}.example-item{margin:0 0 32px 0!important;padding-left:28px!important}.forms{left:82px!important;right:82px!important;bottom:62px!important;font-size:18px}
+.back-inside{font-size:0!important;color:transparent!important;border:0!important;background:transparent!important;width:28px!important;height:28px!important}.back-inside::before{content:"";position:absolute;left:8px!important;top:7px!important;width:12px!important;height:12px!important;border-left:1px solid #b5b5b5;border-bottom:1px solid #b5b5b5;transform:rotate(45deg)}.back-inside:hover::before{border-color:#111}
+.def-pos{display:none!important}.def-ko{top:30.7%!important;left:11.5%!important;right:11.5%!important;text-align:center!important;font-size:clamp(18px,2.35vw,24px)!important;line-height:1.25!important}.def-en{top:50.2%!important;left:13.4%!important;right:13.4%!important;height:20%!important;font-size:clamp(14px,1.85vw,19px)!important;line-height:1.16!important;overflow:hidden!important}.inline-pos{font-family:Arial,Helvetica,sans-serif;color:#555;font-size:.78em;margin-right:.35em;white-space:nowrap}.rel-row{top:77.6%!important;left:13.4%!important;right:13.4%!important;gap:4.6%!important;font-size:clamp(13px,1.65vw,17px)!important}
+.home-button.close-button::before,.home-button.close-button::after{content:"";position:absolute;left:14px;top:6px;width:1px;height:24px;background:#bfbfbf;border:0!important;transform:rotate(45deg)}.home-button.close-button::after{transform:rotate(-45deg)}.home-button.close-button:hover::before,.home-button.close-button:hover::after{background:#111}.pill.review-remove{background:#9c9c9c!important;border-color:#9c9c9c!important;color:#fff!important}.pill.review-remove:hover{background:#1d120e!important;border-color:#1d120e!important;color:#fff!important}
+html,body{min-width:0!important;overflow-x:hidden!important;-webkit-text-size-adjust:100%}.screen{min-width:0!important}.card{width:clamp(320px,min(72vw,88vh),610px)!important;height:auto!important;aspect-ratio:610/410;left:50%!important;top:48%!important}.under-card{width:clamp(320px,min(72vw,88vh),610px)!important;top:calc(48% + clamp(132px,min(26.2vw,32vh),222px))!important;height:clamp(30px,4.1vw,42px)!important}.circle-btn{width:clamp(19px,2.45vw,25px)!important;height:clamp(19px,2.45vw,25px)!important}.sound-btn,.example-btn{right:2.95%!important;top:4.4%!important}.front-word{font-size:clamp(34px,5vw,50px)!important}.example-list{top:32.2%!important;left:13.4%!important;right:13.4%!important;height:41.5%!important;font-size:clamp(14px,1.85vw,19px)!important;line-height:1.18!important}.example-item{margin:0 0 clamp(18px,3.1vw,32px) 0!important;padding-left:clamp(20px,2.7vw,28px)!important}.example-sound{width:clamp(13px,1.66vw,17px)!important;height:clamp(13px,1.66vw,17px)!important}.forms{left:13.4%!important;right:13.4%!important;bottom:15.1%!important;font-size:clamp(14px,1.75vw,18px)!important}.back-inside{left:2.95%!important;top:4.4%!important}.page-left{left:calc(50% - clamp(214px,min(42vw,52vh),360px))!important}.page-right{right:calc(50% - clamp(214px,min(42vw,52vh),360px))!important}.home-button{left:clamp(24px,6.9vw,72px)!important;bottom:6.6vh!important}.day-label,.counter{font-size:clamp(9px,.98vw,10px)!important;line-height:29px!important}.card-actions{gap:clamp(6px,.88vw,9px)!important}.small-pill{height:clamp(25px,2.84vw,29px)!important;min-width:clamp(74px,8.4vw,86px)!important;padding:0 clamp(12px,1.66vw,17px)!important;font-size:clamp(10px,1.07vw,11px)!important}.toc-screen{padding:3.8vh 2.5vw!important}.toc-frame{height:92vh!important}.toc-grid{left:4.4vw!important;right:4.4vw!important;top:19.6vh!important;grid-template-columns:repeat(9,1fr)!important;gap:clamp(14px,2.5vh,26px) clamp(8px,1.17vw,12px)!important}.day-tile{height:clamp(50px,7.2vw,74px)!important;font-size:clamp(14px,1.95vw,20px)!important}.review-main{top:10.6vh!important;right:4.2vw!important;min-width:clamp(100px,13.4vw,137px)!important;height:clamp(38px,4.78vw,49px)!important;font-size:clamp(13px,1.56vw,16px)!important}.review-panel{width:clamp(320px,45vw,460px)!important}.review-tile{height:clamp(48px,5.67vw,58px)!important}
+@media(max-width:700px){.toc-grid{grid-template-columns:repeat(5,1fr)!important;top:17vh!important}.card{width:86vw!important}.under-card{width:86vw!important}.page-left{left:3vw!important}.page-right{right:3vw!important}}
 
-.page-arrow{
-  position:absolute;top:50%;transform:translateY(-50%);
-  width:30px;height:44px;border:0;background:transparent;padding:0;z-index:8;
-  font-size:0;color:transparent;
+/* v15: iPad-friendly enlarged tap areas. Visual size and layout stay unchanged. */
+.sound-btn,.example-btn{
+  width:60px!important;height:60px!important;border:0!important;background:transparent!important;
+  right:calc(2.95% - 17.5px)!important;top:calc(4.4% - 17.5px)!important;
 }
-.page-arrow::before{
-  content:"";position:absolute;top:11px;width:20px;height:20px;
-  border-top:1px solid #b9b9b9;border-right:1px solid #b9b9b9;
+.sound-btn::after,.example-btn::after{
+  content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:clamp(19px,2.45vw,25px);height:clamp(19px,2.45vw,25px);
+  border:1px solid #b5b5b5;border-radius:50%;background:#fff;z-index:-1;
 }
-.page-left{left:28.1vw}
-.page-right{right:28.1vw}
-.page-left::before{left:7px;transform:rotate(-135deg)}
-.page-right::before{right:7px;transform:rotate(45deg)}
-.page-arrow:hover::before{border-color:#111}
-
-/* 하단 */
-.under-card{
-  position:absolute;left:50%;top:calc(48% + 222px);transform:translateX(-50%);
-  width:610px;display:grid;grid-template-columns:1fr auto 1fr;align-items:start;height:42px
-}
-.day-label,.counter{font-size:10px;color:#111;line-height:29px}
-.counter{text-align:right}
-.card-actions{display:flex;gap:9px;justify-content:center}
-.small-pill{height:29px;min-width:86px;padding:0 17px;font-size:11px}
-
-/* 리뷰 */
-.review-screen{background:#fff}
-.review-panel{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:460px}
-.review-tile{
-  width:100%;height:58px;border:1px solid #b6b6b6;background:#fff;color:#777;
-  margin-bottom:14px;font-size:15px;font-weight:300
-}
-.review-tile:hover{border-color:#111;color:#111}
-.review-tile.disabled{color:#aaa}
-.review-tile span{font-size:12px;margin-left:8px;color:#aaa}
-
-@media(max-width:900px){
-  .toc-grid{grid-template-columns:repeat(5,1fr);top:17vh}
-  .day-tile{height:58px;font-size:16px}
-  .review-main{top:6vh;right:4vw;min-width:110px;height:42px;font-size:14px}
-  .card{width:72vw;height:54vh}
-  .front-word{font-size:46px}
-  .def-ko{
-  position:absolute;left:70px;right:70px;top:146px;text-align:center;
-  font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:1.25;font-weight:400
-}
-  .def-en,.rel-row,.example-list,.forms{left:48px;right:48px}
-  .page-left{left:5vw}.page-right{right:5vw}
-  .under-card{width:72vw}
-}
-
-
-/* v4 override: guide-style hairline chevrons */
-.home-button{
-  position:absolute;left:6.9vw;bottom:6.6vh;
-  width:30px;height:38px;border:0;background:transparent;padding:0;z-index:10;
-  font-size:0!important;color:transparent!important;
-}
-.home-button::before{
-  content:"";position:absolute;left:8px;top:7px;width:20px;height:20px;
-  border-left:1px solid #bfbfbf;border-bottom:1px solid #bfbfbf;
-  transform:rotate(45deg);
-}
-.home-button:hover::before{border-color:#111}
-.page-arrow{
-  position:absolute;top:50%;transform:translateY(-50%);
-  width:30px;height:44px;border:0;background:transparent;padding:0;z-index:8;
-  font-size:0!important;color:transparent!important;
-}
-.page-arrow::before{
-  content:"";position:absolute;top:11px;width:20px;height:20px;
-  border-top:1px solid #b9b9b9;border-right:1px solid #b9b9b9;
-}
-.page-left{left:28.1vw}
-.page-right{right:28.1vw}
-.page-left::before{left:7px;transform:rotate(-135deg)}
-.page-right::before{right:7px;transform:rotate(45deg)}
-.page-arrow:hover::before{border-color:#111}
-
-
-/* v5 UI refinements */
-
-/* 플레이 버튼: 채워진 그레이 삼각형 */
-.sound-btn,
-.example-sound{
-  font-size:0!important;
-}
-.sound-btn::before{
-  content:"";
-  width:0;height:0;
-  border-top:6px solid transparent;
-  border-bottom:6px solid transparent;
-  border-left:9px solid #9c9c9c;
-  margin-left:2px;
-}
-.sound-btn:hover::before{border-left-color:#111}
-
-.example-sound::before{
-  content:"";
-  width:0;height:0;
-  border-top:4px solid transparent;
-  border-bottom:4px solid transparent;
-  border-left:6px solid #9c9c9c;
-  margin-left:1px;
-}
-.example-sound:hover::before{border-left-color:#111}
-
-/* 예문 페이지도 정의 페이지처럼 고정 기준선 */
-.example-list{
-  left:82px!important;
-  right:82px!important;
-  top:132px!important;
-  height:170px;
-  overflow:hidden;
-  font-size:19px;
-  line-height:1.18;
-}
-.example-item{
-  margin:0 0 32px 0!important;
-  padding-left:28px!important;
-}
-.forms{
-  left:82px!important;
-  right:82px!important;
-  bottom:62px!important;
-  font-size:18px;
-}
-
-/* 예문 뒤로가기 버튼: 원형 버튼 안 문자 대신 얇은 선 chevron */
-.back-inside{
-  font-size:0!important;
-  color:transparent!important;
-}
-.back-inside::before{
-  content:"";
-  position:absolute;
-  left:9px;
-  top:7px;
-  width:10px;
-  height:10px;
-  border-left:1px solid #b5b5b5;
-  border-bottom:1px solid #b5b5b5;
-  transform:rotate(45deg);
-}
-.back-inside:hover::before{border-color:#111}
-
-/* 카드-화살표 간격: 현재보다 두 배 넓게 */
-.page-left{left:23.8vw!important}
-.page-right{right:23.8vw!important}
-
-
-/* v6 final touch */
-
-/* 예문 뒤로가기: 동그라미 제거, 얇은 화살표만 */
-.back-inside{
-  border:0!important;
-  background:transparent!important;
-  width:28px!important;
-  height:28px!important;
-}
-.back-inside::before{
-  left:8px!important;
-  top:7px!important;
-  width:12px!important;
-  height:12px!important;
-}
-
-/* 품사: 한글 뜻 위가 아니라 한글 뜻 왼쪽에 붙임 */
-.def-pos{
-  top:132px!important;
-  left:70px!important;
-  right:auto!important;
-  width:54px!important;
-  text-align:right!important;
-  color:#555!important;
-}
-.def-ko{
-  top:126px!important;
-  left:136px!important;
-  right:70px!important;
-  text-align:left!important;
-}
-.def-en{
-  top:206px!important;
-}
-.rel-row{
-  top:318px!important;
-}
-
-/* v7 review UX + definition alignment */
-.home-button.close-button::before,
-.home-button.close-button::after{
-  content:"";
-  position:absolute;
-  left:14px;
-  top:6px;
-  width:1px;
-  height:24px;
-  background:#bfbfbf;
-  border:0!important;
-  transform:rotate(45deg);
-}
-.home-button.close-button::after{transform:rotate(-45deg)}
-.home-button.close-button:hover::before,
-.home-button.close-button:hover::after{background:#111}
-
-.pill.review-remove{
-  background:#9c9c9c!important;
-  border-color:#9c9c9c!important;
-  color:#fff!important;
-}
-.pill.review-remove:hover{
-  background:#1d120e!important;
-  border-color:#1d120e!important;
-  color:#fff!important;
-}
-
-.def-ko{
-  top:126px!important;
-  left:70px!important;
-  right:70px!important;
-  text-align:center!important;
-}
-
-
-/* v8 iPad stable layout
-   Keep the same desktop/card proportions on iPad instead of letting the mobile media query
-   stretch the card and move the controls. */
-html,body{
-  min-width:1024px;
-  overflow-x:auto;
-  -webkit-text-size-adjust:100%;
-}
-.screen{min-width:1024px!important;}
-.card{
-  width:610px!important;
-  height:410px!important;
-  left:50%!important;
-  top:48%!important;
-}
-.under-card{
-  width:610px!important;
-  top:calc(48% + 222px)!important;
-}
-.page-left{left:calc(50% - 360px)!important;}
-.page-right{right:calc(50% - 360px)!important;}
-.toc-grid{
-  grid-template-columns:repeat(9,1fr)!important;
-  top:19.6vh!important;
-}
-.day-tile{
-  height:74px!important;
-  font-size:20px!important;
-}
-.review-main{
-  top:10.6vh!important;
-  right:4.2vw!important;
-  min-width:137px!important;
-  height:49px!important;
-  font-size:16px!important;
-}
-.front-word{font-size:50px!important;}
-.def-en,.rel-row,.example-list,.forms{
-  left:82px!important;
-  right:82px!important;
-}
-.def-ko{
-  left:70px!important;
-  right:70px!important;
-  text-align:center!important;
-}
-
-
-/* v9 proportional responsive layout: laptop look, scaled by viewport */
-html,body{
-  min-width:0!important;
-  overflow-x:hidden!important;
-  -webkit-text-size-adjust:100%;
-}
-.screen{min-width:0!important;}
-.card{
-  width:clamp(320px, min(72vw, 88vh), 610px)!important;
-  height:auto!important;
-  aspect-ratio:610 / 410;
-  left:50%!important;
-  top:48%!important;
-}
-.under-card{
-  width:clamp(320px, min(72vw, 88vh), 610px)!important;
-  top:calc(48% + clamp(132px, min(26.2vw, 32vh), 222px))!important;
-  height:clamp(30px, 4.1vw, 42px)!important;
-}
-.face{font-family:Georgia,"Times New Roman",serif;}
-.circle-btn{
-  width:clamp(19px, 2.45vw, 25px)!important;
-  height:clamp(19px, 2.45vw, 25px)!important;
-}
-.sound-btn,.example-btn{right:2.95%!important;top:4.4%!important;}
-.front-word{
-  font-size:clamp(34px, 5vw, 50px)!important;
-}
-
-/* Definition: Korean meaning centered; part of speech moved into English definition */
-.def-pos{display:none!important;}
-.def-ko{
-  top:30.7%!important;
-  left:11.5%!important;
-  right:11.5%!important;
-  text-align:center!important;
-  font-size:clamp(18px, 2.35vw, 24px)!important;
-  line-height:1.25!important;
-}
-.def-en{
-  top:50.2%!important;
-  left:13.4%!important;
-  right:13.4%!important;
-  height:20%!important;
-  font-size:clamp(14px, 1.85vw, 19px)!important;
-  line-height:1.16!important;
-  overflow:hidden!important;
-}
-.inline-pos{
-  font-family:Arial,Helvetica,sans-serif;
-  color:#555;
-  font-size:.78em;
-  margin-right:.35em;
-  white-space:nowrap;
-}
-.rel-row{
-  top:77.6%!important;
-  left:13.4%!important;
-  right:13.4%!important;
-  gap:4.6%!important;
-  font-size:clamp(13px, 1.65vw, 17px)!important;
-}
-
-/* Examples scaled from card, not screen */
-.example-list{
-  top:32.2%!important;
-  left:13.4%!important;
-  right:13.4%!important;
-  height:41.5%!important;
-  font-size:clamp(14px, 1.85vw, 19px)!important;
-  line-height:1.18!important;
-}
-.example-item{
-  margin:0 0 clamp(18px, 3.1vw, 32px) 0!important;
-  padding-left:clamp(20px, 2.7vw, 28px)!important;
-}
-.example-sound{
-  width:clamp(13px, 1.66vw, 17px)!important;
-  height:clamp(13px, 1.66vw, 17px)!important;
-}
-.forms{
-  left:13.4%!important;
-  right:13.4%!important;
-  bottom:15.1%!important;
-  font-size:clamp(14px, 1.75vw, 18px)!important;
-}
-.back-inside{
-  left:2.95%!important;
-  top:4.4%!important;
-}
-
-/* Arrows and bottom controls keep fixed proportion around the card */
-.page-left{left:calc(50% - clamp(214px, min(42vw, 52vh), 360px))!important;}
-.page-right{right:calc(50% - clamp(214px, min(42vw, 52vh), 360px))!important;}
-.home-button{
-  left:clamp(24px, 6.9vw, 72px)!important;
-  bottom:6.6vh!important;
-}
-.day-label,.counter{font-size:clamp(9px, .98vw, 10px)!important;line-height:29px!important;}
-.card-actions{gap:clamp(6px, .88vw, 9px)!important;}
-.small-pill{
-  height:clamp(25px, 2.84vw, 29px)!important;
-  min-width:clamp(74px, 8.4vw, 86px)!important;
-  padding:0 clamp(12px, 1.66vw, 17px)!important;
-  font-size:clamp(10px, 1.07vw, 11px)!important;
-}
-
-/* TOC proportional cleanup */
-.toc-screen{padding:3.8vh 2.5vw!important;}
-.toc-frame{height:92vh!important;}
-.toc-grid{
-  left:4.4vw!important;
-  right:4.4vw!important;
-  top:19.6vh!important;
-  grid-template-columns:repeat(9,1fr)!important;
-  gap:clamp(14px, 2.5vh, 26px) clamp(8px, 1.17vw, 12px)!important;
-}
-.day-tile{
-  height:clamp(50px, 7.2vw, 74px)!important;
-  font-size:clamp(14px, 1.95vw, 20px)!important;
-}
-.review-main{
-  top:10.6vh!important;
-  right:4.2vw!important;
-  min-width:clamp(100px, 13.4vw, 137px)!important;
-  height:clamp(38px, 4.78vw, 49px)!important;
-  font-size:clamp(13px, 1.56vw, 16px)!important;
-}
-.review-panel{
-  width:clamp(320px, 45vw, 460px)!important;
-}
-.review-tile{
-  height:clamp(48px, 5.67vw, 58px)!important;
-}
-
-@media(max-width:700px){
-  .toc-grid{grid-template-columns:repeat(5,1fr)!important;top:17vh!important;}
-  .card{width:86vw!important;}
-  .under-card{width:86vw!important;}
-
-  /* mobile: place arrows on the card edge area, not at the viewport edge */
-  .page-left{
-    left:calc(50% - 43vw + 8px)!important;
-  }
-  .page-right{
-    right:calc(50% - 43vw + 8px)!important;
-  }
-
-  /* mobile: keep the bottom/back arrow safely above the Safari toolbar */
-  .home-button{
-    left:7vw!important;
-    bottom:13vh!important;
-  }
-}
+.sound-btn::before{position:absolute;left:50%;top:50%;transform:translate(-38%,-50%);margin:0;z-index:1}
+.example-btn{font-size:13px!important;color:#b5b5b5!important;z-index:2}
+.sound-btn:hover::after,.example-btn:hover::after{border-color:#111}.example-btn:hover{color:#111!important}
+.back-inside{width:60px!important;height:60px!important;left:calc(2.95% - 16px)!important;top:calc(4.4% - 16px)!important}
+.back-inside::before{left:24px!important;top:23px!important}
+.page-arrow{width:72px!important;height:220px!important}
+.page-arrow::before{top:100px!important}.page-left::before{left:28px!important}.page-right::before{right:28px!important}
+.page-left{margin-left:-21px!important}.page-right{margin-right:-21px!important}
+.home-button{width:64px!important;height:64px!important;margin-left:-17px!important;margin-bottom:-13px!important}
+.home-button::before{left:25px!important;top:22px!important}
+.home-button.close-button::before,.home-button.close-button::after{left:31px!important;top:20px!important}
+.example-sound{width:40px!important;height:40px!important;left:-11px!important;top:-11px!important;border:0!important;background:transparent!important}
+.example-sound::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:clamp(13px,1.66vw,17px);height:clamp(13px,1.66vw,17px);border:1px solid #aaa;border-radius:50%;background:#fff;z-index:-1}
+.example-sound::before{position:absolute;left:50%;top:50%;transform:translate(-38%,-50%);margin:0;z-index:1}
+.example-sound:hover::after{border-color:#111}
